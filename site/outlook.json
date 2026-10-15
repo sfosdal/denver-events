@@ -1,0 +1,11 @@
+{
+  "_": "Off-season blurbs for the Teams view's form block (app.js renderTeamForm): shown before a season starts and once one is well over. Plain text, one per team slug. Edit freely — nothing generates this file.",
+  "broncos": "The Broncos' season runs September to January at Empower Field at Mile High, eight or nine regular-season home dates on Sundays with a Monday or Thursday night most years; the schedule drops in May.",
+  "nuggets": "The Nuggets play October to April at Ball Arena, 41 home dates, with the playoffs from mid-April; the schedule arrives in August.",
+  "avalanche": "The Avalanche's season runs October to April at Ball Arena, 41 home dates, with the Stanley Cup playoffs from mid-April; the schedule is out in early July.",
+  "rockies": "The Rockies open at Coors Field in late March or early April and play through September, 81 home dates; the schedule is published the summer before.",
+  "rapids": "The Rapids' MLS season runs late February to October at Dick's Sporting Goods Park in Commerce City, 17 home dates, with the Cup playoffs into December; the schedule arrives in December.",
+  "pioneers": "Pioneers hockey runs October to March at Magness Arena, about 18 home dates in Friday–Saturday pairs, with the NCHC playoffs and the Frozen Four into April; the schedule is out by August.",
+  "buffs": "Buffs football runs late August to November at Folsom Field in Boulder, six or seven home Saturdays; the schedule is set in the winter.",
+  "buffsbasketball": "Buffs basketball runs November to March at the CU Events Center in Boulder, 16 or 17 home dates, with the Big 12 tournament and March Madness after; the schedule is out in the autumn."
+}

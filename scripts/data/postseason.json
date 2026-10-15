@@ -1,0 +1,261 @@
+{
+ "_": "Each club's postseason for the season in hand — the rounds, their dates and the final's site — shown in the Teams view as 'if they qualify' until the real games arrive (the schedules flag those playoff: true, and a round with a real game in its window gives way to it). Hand-kept: update each season from the leagues' announcements. tbd: true marks a round whose dates are the usual calendar, not yet announced. Drafted 2026-10-15 (Denver) from the leagues' usual calendars; the Rockies' 2026 postseason is over without them.",
+ "broncos": {
+  "season": "2026",
+  "rounds": [
+   {
+    "name": "Wild Card round",
+    "start": "2027-01-09",
+    "end": "2027-01-11",
+    "tbd": true
+   },
+   {
+    "name": "Divisional round",
+    "start": "2027-01-16",
+    "end": "2027-01-17",
+    "tbd": true
+   },
+   {
+    "name": "AFC Championship",
+    "start": "2027-01-24",
+    "end": "2027-01-24",
+    "tbd": true
+   },
+   {
+    "name": "Super Bowl LXI",
+    "start": "2027-02-07",
+    "end": "2027-02-07",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "nuggets": {
+  "season": "2026–27",
+  "rounds": [
+   {
+    "name": "Play-In Tournament",
+    "start": "2027-04-13",
+    "end": "2027-04-16",
+    "tbd": true
+   },
+   {
+    "name": "First round",
+    "start": "2027-04-17",
+    "end": "2027-05-02",
+    "tbd": true
+   },
+   {
+    "name": "Conference semifinals",
+    "start": "2027-05-03",
+    "end": "2027-05-16",
+    "tbd": true
+   },
+   {
+    "name": "Western Conference Finals",
+    "start": "2027-05-17",
+    "end": "2027-05-30",
+    "tbd": true
+   },
+   {
+    "name": "NBA Finals",
+    "start": "2027-06-03",
+    "end": "2027-06-20",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "avalanche": {
+  "season": "2026–27",
+  "rounds": [
+   {
+    "name": "First round",
+    "start": "2027-04-17",
+    "end": "2027-05-02",
+    "tbd": true
+   },
+   {
+    "name": "Second round",
+    "start": "2027-05-03",
+    "end": "2027-05-16",
+    "tbd": true
+   },
+   {
+    "name": "Western Conference Final",
+    "start": "2027-05-17",
+    "end": "2027-05-30",
+    "tbd": true
+   },
+   {
+    "name": "Stanley Cup Final",
+    "start": "2027-06-01",
+    "end": "2027-06-20",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "rockies": {
+  "season": "2026",
+  "rounds": [
+   {
+    "name": "Wild Card Series",
+    "start": "2026-09-29",
+    "end": "2026-10-01",
+    "tbd": true
+   },
+   {
+    "name": "Division Series",
+    "start": "2026-10-03",
+    "end": "2026-10-09",
+    "tbd": true
+   },
+   {
+    "name": "League Championship Series",
+    "start": "2026-10-11",
+    "end": "2026-10-19",
+    "tbd": true
+   },
+   {
+    "name": "World Series",
+    "start": "2026-10-23",
+    "end": "2026-10-31",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "rapids": {
+  "season": "2026",
+  "rounds": [
+   {
+    "name": "Wild Card",
+    "start": "2026-10-21",
+    "end": "2026-10-22",
+    "tbd": true
+   },
+   {
+    "name": "Round One, best of three",
+    "start": "2026-10-24",
+    "end": "2026-11-08",
+    "tbd": true
+   },
+   {
+    "name": "Conference semifinals",
+    "start": "2026-11-21",
+    "end": "2026-11-22",
+    "tbd": true
+   },
+   {
+    "name": "Conference finals",
+    "start": "2026-11-28",
+    "end": "2026-11-29",
+    "tbd": true
+   },
+   {
+    "name": "MLS Cup",
+    "start": "2026-12-05",
+    "end": "2026-12-05",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "pioneers": {
+  "season": "2026–27",
+  "rounds": [
+   {
+    "name": "NCHC quarterfinals",
+    "start": "2027-03-12",
+    "end": "2027-03-14",
+    "tbd": true
+   },
+   {
+    "name": "NCHC Frozen Faceoff",
+    "start": "2027-03-19",
+    "end": "2027-03-20",
+    "tbd": true
+   },
+   {
+    "name": "NCAA regionals",
+    "start": "2027-03-25",
+    "end": "2027-03-28",
+    "tbd": true
+   },
+   {
+    "name": "Frozen Four",
+    "start": "2027-04-08",
+    "end": "2027-04-10",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "buffs": {
+  "season": "2026",
+  "rounds": [
+   {
+    "name": "Big 12 Championship Game",
+    "start": "2026-12-05",
+    "end": "2026-12-05",
+    "tbd": true
+   },
+   {
+    "name": "College Football Playoff, first round",
+    "start": "2026-12-19",
+    "end": "2026-12-20",
+    "tbd": true
+   },
+   {
+    "name": "CFP quarterfinals",
+    "start": "2026-12-31",
+    "end": "2027-01-01",
+    "tbd": true
+   },
+   {
+    "name": "CFP semifinals",
+    "start": "2027-01-08",
+    "end": "2027-01-09",
+    "tbd": true
+   },
+   {
+    "name": "CFP National Championship",
+    "start": "2027-01-18",
+    "end": "2027-01-18",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "buffsbasketball": {
+  "season": "2026–27",
+  "rounds": [
+   {
+    "name": "Big 12 Tournament",
+    "start": "2027-03-09",
+    "end": "2027-03-13",
+    "tbd": true
+   },
+   {
+    "name": "NCAA first and second rounds",
+    "start": "2027-03-18",
+    "end": "2027-03-21",
+    "tbd": true
+   },
+   {
+    "name": "Sweet 16 and Elite Eight",
+    "start": "2027-03-25",
+    "end": "2027-03-28",
+    "tbd": true
+   },
+   {
+    "name": "Final Four",
+    "start": "2027-04-03",
+    "end": "2027-04-05",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ }
+}
