@@ -1,3 +1,106 @@
 {
- "events": []
+ "events": [
+  {
+   "venue": "Marquis Theater",
+   "title": "Jenna Davis",
+   "date": "2026-10-15",
+   "time": "17:30:00",
+   "url": "https://www.ticketmaster.com/jenna-davis-denver-colorado-10-15-2026/event/1E0064C3DD46FD30",
+   "type": "concert"
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "ARTMS",
+   "date": "2026-10-15",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/artms-denver-colorado-10-15-2026/event/1E0064EDB6C08E9B",
+   "type": "concert"
+  },
+  {
+   "venue": "Empower Field at Mile High",
+   "title": "Denver Broncos vs. Seattle Seahawks",
+   "date": "2026-10-15",
+   "time": "18:15:00",
+   "url": "https://www.ticketmaster.com/denver-broncos-vs-seattle-seahawks-denver-colorado-10-15-2026/event/1E006478043637A2",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "Prime Video"
+    ]
+   }
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Charles Wesley Godwin w/ Michael Marcagi",
+   "date": "2026-10-15",
+   "time": "18:30:00",
+   "url": "https://www.redrocksonline.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "The Fillmore Auditorium",
+   "title": "Hokus Pokus Live!",
+   "date": "2026-10-15",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/hokus-pokus-live-denver-colorado-10-15-2026/event/1E0064B3EE1711D9",
+   "type": "arts",
+   "status": "cancelled",
+   "statusSince": "2026-10-15T21:05:08.799Z"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Big Jay Oakerson",
+   "date": "2026-10-15",
+   "time": "19:30:00",
+   "url": "https://www.comedyworks.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "DJ Shadow - Ages 16+",
+   "date": "2026-10-15",
+   "time": "20:00:00",
+   "url": "https://www.missionballroom.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Switchfoot w/ Anberlin",
+   "date": "2026-10-15",
+   "time": "20:00:00",
+   "url": "https://www.ogdentheatre.com/events",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Jay Webb w/ Caitlynne Curtis",
+   "date": "2026-10-15",
+   "time": "20:00:00",
+   "url": "https://www.bluebirdtheater.net"
+  },
+  {
+   "venue": "Oriental Theater",
+   "title": "French Police",
+   "date": "2026-10-15",
+   "time": "20:00:00",
+   "url": "https://theorientaltheater.holdmyticket.com/tickets/463512",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Watsky x Infinity (16 and Over)",
+   "date": "2026-10-15",
+   "time": "20:00:00",
+   "url": "https://www.gothictheatre.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Boulder Theater",
+   "title": "Punch Brothers",
+   "date": "2026-10-15",
+   "time": "20:00:00",
+   "url": "https://www.bouldertheater.com/",
+   "type": "concert"
+  }
+ ]
 }
