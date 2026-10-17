@@ -101,6 +101,202 @@
    "time": "20:00:00",
    "url": "https://www.bouldertheater.com/",
    "type": "concert"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Sammy Virji w/ Confidence Man",
+   "date": "2026-10-16",
+   "time": "18:00:00",
+   "url": "https://www.redrocksonline.com/"
+  },
+  {
+   "venue": "The Fillmore Auditorium",
+   "title": "Julia Wolf",
+   "date": "2026-10-16",
+   "time": "18:30:00",
+   "url": "https://www.ticketmaster.com/julia-wolf-denver-colorado-10-16-2026/event/1E006488D649EB93",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Colorado Avalanche vs. Pittsburgh Penguins",
+   "date": "2026-10-16",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/colorado-avalanche-vs-pittsburgh-penguins-denver-colorado-10-16-2026/event/1E0064EEB2B69EC6",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "SN+",
+     "TVAS",
+     "ALT",
+     "KTVD"
+    ]
+   }
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "The Army, The Navy",
+   "date": "2026-10-16",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/the-army-the-navy-denver-colorado-10-16-2026/event/1E0064CCE72E1816",
+   "type": "concert"
+  },
+  {
+   "venue": "Meow Wolf Denver",
+   "title": "Theo Katzman",
+   "date": "2026-10-16",
+   "time": "19:00:00",
+   "url": "https://tickets.meowwolf.com/events/denver/theo-katzman/",
+   "type": "concert"
+  },
+  {
+   "venue": "Magness Arena",
+   "title": "Denver Pioneers Hockey vs. Michigan Wolverines Hockey",
+   "date": "2026-10-16",
+   "time": "19:00:00",
+   "url": "https://denverpioneers.com/sports/mens-ice-hockey/schedule",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "NCHCHockey.com"
+    ]
+   }
+  },
+  {
+   "venue": "Boulder Theater",
+   "title": "Microwave w/ Free Throw",
+   "date": "2026-10-16",
+   "time": "19:00:00",
+   "url": "https://www.bouldertheater.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Big Jay Oakerson",
+   "date": "2026-10-16",
+   "time": "19:15:00",
+   "url": "https://www.comedyworks.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "The Who's Tommy (Touring)",
+   "date": "2026-10-16",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Boettcher Concert Hall",
+   "title": "Joe Hisaishi with the Colorado Symphony",
+   "date": "2026-10-16",
+   "time": "19:30:00",
+   "url": "http://www.artscomplex.com",
+   "type": "concert"
+  },
+  {
+   "venue": "Chautauqua Auditorium",
+   "title": "Heavy Diamond Ring with Stelth Ulvang",
+   "date": "2026-10-16",
+   "time": "20:00",
+   "url": "purchase.chautauqua.com/EventAvailability?WebEventId=CCH101626",
+   "type": "concert",
+   "soldOut": true
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "Afrojack",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.missionballroom.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Bellco Theatre",
+   "title": "Beat",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "http://bellcotheatre.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Ott. (16 and Over)",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.ogdentheatre.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Slift (16 and Over)",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.bluebirdtheater.net"
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "Bassrush presents Midnight Tyrannosaurus - 18+",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/bassrush-presents-midnight-tyrannosaurus-18-denver-colorado-10-16-2026/event/1E0065103F8F8969",
+   "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "Sortof Vague with RamonPang, rsrch chmcls, & rij",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/sortof-vague-with-ramonpang-rsrch-chmcls-denver-colorado-10-16-2026/event/1E0064DA8EBBA386",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Grizzly Rose",
+   "title": "Chris Cagle",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.ticketweb.com/event/chris-cagle-grizzly-rose-tickets/14199314",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Nineteen Minutes Later",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.gothictheatre.com/"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Big Jay Oakerson",
+   "date": "2026-10-16",
+   "time": "21:30:00",
+   "url": "https://www.comedyworks.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Tritonal",
+   "date": "2026-10-16",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/tritonal-club-vinyl-tickets/14260094",
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Oppidan",
+   "date": "2026-10-16",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/oppidan-the-basement-at-club-vinyl-tickets/14370384",
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "EDD",
+   "date": "2026-10-16",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/edd-the-rooftop-at-vinyl-tickets/14342134",
+   "type": "concert"
   }
  ]
 }
