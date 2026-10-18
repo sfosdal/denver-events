@@ -297,6 +297,169 @@
    "time": "22:00:00",
    "url": "https://www.ticketweb.com/event/edd-the-rooftop-at-vinyl-tickets/14342134",
    "type": "concert"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "The Who's Tommy (Touring)",
+   "date": "2026-10-17",
+   "time": "14:00:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Berried Alive - Live In The Flesh",
+   "date": "2026-10-17",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/berried-alive-live-in-the-flesh-denver-colorado-10-17-2026/event/1E00647D2212E439",
+   "type": "concert"
+  },
+  {
+   "venue": "Magness Arena",
+   "title": "Denver Pioneers Hockey vs. Michigan Wolverines Hockey",
+   "date": "2026-10-17",
+   "time": "18:00:00",
+   "url": "https://denverpioneers.com/sports/mens-ice-hockey/schedule",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "NCHCHockey.com"
+    ]
+   }
+  },
+  {
+   "venue": "Boulder Theater",
+   "title": "Craig Ferguson",
+   "date": "2026-10-17",
+   "time": "18:00:00",
+   "url": "https://www.bouldertheater.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "The Fillmore Auditorium",
+   "title": "Chief Keef",
+   "date": "2026-10-17",
+   "time": "18:30:00",
+   "url": "https://www.ticketmaster.com/chief-keef-denver-colorado-10-17-2026/event/1E0064E2B085B9B1",
+   "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Big Jay Oakerson",
+   "date": "2026-10-17",
+   "time": "19:00:00",
+   "url": "https://www.comedyworks.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "The Who's Tommy (Touring)",
+   "date": "2026-10-17",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Boettcher Concert Hall",
+   "title": "Joe Hisaishi with the Colorado Symphony",
+   "date": "2026-10-17",
+   "time": "19:30:00",
+   "url": "http://www.artscomplex.com",
+   "type": "concert"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Sammy Rae and The Friends (16 and Over)",
+   "date": "2026-10-17",
+   "time": "20:00:00",
+   "url": "https://www.ogdentheatre.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "The Milk Carton Kids (16 and Over) - Saturday",
+   "date": "2026-10-17",
+   "time": "20:00:00",
+   "url": "https://www.bluebirdtheater.net",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Ott. w/ Ours Samplus",
+   "date": "2026-10-17",
+   "time": "20:00:00",
+   "url": "https://www.cervantesmasterpiece.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "Sabotage & Guerilla Radio",
+   "date": "2026-10-17",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/sabotage-guerilla-radio-denver-colorado-10-17-2026/event/1E0064FF82D55758",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Meow Wolf Denver",
+   "title": "Sueco",
+   "date": "2026-10-17",
+   "time": "20:00:00",
+   "url": "https://tickets.meowwolf.com/events/denver/sueco/",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Fruit Bats (16 and Over)",
+   "date": "2026-10-17",
+   "time": "20:00:00",
+   "url": "https://www.missionballroom.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Folsom Field",
+   "title": "Colorado Buffaloes Football vs. Utah Utes Football",
+   "date": "2026-10-17",
+   "time": "20:15:00",
+   "url": "https://cubuffs.com/sports/football/schedule",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "ESPN"
+    ]
+   }
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "D.O.D. (16 and Over)",
+   "date": "2026-10-17",
+   "time": "21:00:00",
+   "url": "https://www.missionballroom.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Big Jay Oakerson",
+   "date": "2026-10-17",
+   "time": "21:15:00",
+   "url": "https://www.comedyworks.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Covex",
+   "date": "2026-10-17",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/covex-the-basement-at-club-vinyl-tickets/15038933",
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Whipped Cream",
+   "date": "2026-10-17",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/whipped-cream-club-vinyl-tickets/14906753",
+   "type": "concert"
   }
  ]
 }
