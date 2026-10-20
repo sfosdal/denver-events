@@ -524,6 +524,38 @@
    "time": "20:00:00",
    "url": "https://www.bouldertheater.com/",
    "type": "concert"
+  },
+  {
+   "venue": "The Fillmore Auditorium",
+   "title": "Taste Of Chaos",
+   "date": "2026-10-19",
+   "time": "16:30:00",
+   "url": "https://www.ticketmaster.com/taste-of-chaos-denver-colorado-10-19-2026/event/1E0064BC941D8D16",
+   "type": "concert"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Zac Brown Band w/ Grace Potter",
+   "date": "2026-10-19",
+   "time": "19:00:00",
+   "url": "https://www.redrocksonline.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Patrick Droney",
+   "date": "2026-10-19",
+   "time": "19:30:00",
+   "url": "https://www.bluebirdtheater.net",
+   "type": "concert"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Slow Pulp (16 and Over)",
+   "date": "2026-10-19",
+   "time": "20:00:00",
+   "url": "https://www.ogdentheatre.com/",
+   "type": "concert"
   }
  ]
 }
