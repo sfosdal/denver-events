@@ -556,6 +556,74 @@
    "time": "20:00:00",
    "url": "https://www.ogdentheatre.com/",
    "type": "concert"
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "Daði Freyr: Too Much, Not Enough",
+   "date": "2026-10-20",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/dai-freyr-too-much-not-enough-denver-colorado-10-20-2026/event/1E0064771496E3CB",
+   "type": "concert"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "This Wild Life",
+   "date": "2026-10-20",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/this-wild-life-denver-colorado-10-20-2026/event/1E0064F1BF25D512",
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-10-15T21:05:08.799Z"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Zac Brown Band w/ Grace Potter",
+   "date": "2026-10-20",
+   "time": "19:00:00",
+   "url": "https://www.redrocksonline.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Paramount Theatre",
+   "title": "Shoshana Bean",
+   "date": "2026-10-20",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/shoshana-bean-denver-colorado-10-20-2026/event/1E0064C3CAB1E399",
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-10-15T21:05:08.799Z"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-10-20",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Knox w/ Emi Grace",
+   "date": "2026-10-20",
+   "time": "19:30:00",
+   "url": "https://www.ogdentheatre.com/"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "Palace (16 and Over)",
+   "date": "2026-10-20",
+   "time": "20:00:00",
+   "url": "https://www.missionballroom.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "Derya Yildirim & Grup Simsek with Thee Marloes",
+   "date": "2026-10-20",
+   "time": "21:00:00",
+   "url": "https://www.ticketmaster.com/derya-yildirim-grup-simsek-with-thee-denver-colorado-10-20-2026/event/1E00650DE0548713",
+   "age21": true,
+   "type": "concert"
   }
  ]
 }
