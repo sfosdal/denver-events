@@ -624,6 +624,53 @@
    "url": "https://www.ticketmaster.com/derya-yildirim-grup-simsek-with-thee-denver-colorado-10-20-2026/event/1E00650DE0548713",
    "age21": true,
    "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "Cougar Club Presents: Cougar Coven",
+   "date": "2026-10-21",
+   "time": "18:30:00",
+   "url": "https://www.ticketmaster.com/cougar-club-presents-cougar-coven-denver-colorado-10-21-2026/event/1E006512E174446B",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-10-21",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Boulder Theater",
+   "title": "Mom Jeans",
+   "date": "2026-10-21",
+   "time": "19:30:00",
+   "url": "https://www.bouldertheater.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Shyne",
+   "date": "2026-10-21",
+   "time": "20:00:00",
+   "url": "https://www.ogdentheatre.com/"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "ButtTootKing: Lydia B Kollins, Suzie Toot, and Kori King - ages 16+",
+   "date": "2026-10-21",
+   "time": "20:00:00",
+   "url": "https://www.cervantesmasterpiece.com/"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Muna w/ Hemlocke Springs",
+   "date": "2026-10-21",
+   "time": "20:00:00",
+   "url": "https://www.redrocksonline.com/",
+   "type": "concert"
   }
  ]
 }
