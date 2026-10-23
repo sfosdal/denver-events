@@ -671,6 +671,47 @@
    "time": "20:00:00",
    "url": "https://www.redrocksonline.com/",
    "type": "concert"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Ceremony",
+   "date": "2026-10-22",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/ceremony-denver-colorado-10-22-2026/event/1E0064CD284C2B4F",
+   "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "Alejo x 3NA: Nerves AV with Mike Wallis, Snilk and Myk0ra",
+   "date": "2026-10-22",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/alejo-x-3na-nerves-av-with-denver-colorado-10-22-2026/event/1E0064DACC8BB03D",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Macklemore",
+   "date": "2026-10-22",
+   "time": "19:00:00",
+   "url": "https://www.redrocksonline.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-10-22",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "The Glitch Mob - Ages 16+",
+   "date": "2026-10-22",
+   "time": "20:30:00",
+   "url": "https://www.cervantesmasterpiece.com/",
+   "type": "concert"
   }
  ]
 }
