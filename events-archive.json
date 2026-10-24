@@ -712,6 +712,148 @@
    "time": "20:30:00",
    "url": "https://www.cervantesmasterpiece.com/",
    "type": "concert"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Mersiv",
+   "date": "2026-10-23",
+   "time": "18:00:00",
+   "url": "https://www.redrocksonline.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Colorado Avalanche v Tampa Bay Lightning",
+   "date": "2026-10-23",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/colorado-avalanche-v-tampa-bay-lightning-denver-colorado-10-23-2026/event/1E0064EEB2BA9EDB",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "SN360",
+     "TVAS",
+     "ALT"
+    ]
+   }
+  },
+  {
+   "venue": "The Fillmore Auditorium",
+   "title": "Shpongle",
+   "date": "2026-10-23",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/shpongle-denver-colorado-10-23-2026/event/1E006477A471736D",
+   "type": "concert"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "AZ Chike",
+   "date": "2026-10-23",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/az-chike-denver-colorado-10-23-2026/event/1E006518DDBBEBB3",
+   "type": "concert"
+  },
+  {
+   "venue": "Magness Arena",
+   "title": "Denver Pioneers Hockey vs. Boston College Eagles Hockey",
+   "date": "2026-10-23",
+   "time": "19:00:00",
+   "url": "https://denverpioneers.com/sports/mens-ice-hockey/schedule",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "Ryz Sports Network",
+     "NCHCHockey.com"
+    ]
+   }
+  },
+  {
+   "venue": "Boulder Theater",
+   "title": "Kathy Griffin - All Ages (under 16 with adult)",
+   "date": "2026-10-23",
+   "time": "19:00:00",
+   "url": "https://www.bouldertheater.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-10-23",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Boettcher Concert Hall",
+   "title": "The Firebird with Cleo Parker Robinson Dance & John Williams Horn Concerto",
+   "date": "2026-10-23",
+   "time": "19:30:00",
+   "url": "http://www.artscomplex.com",
+   "type": "arts"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "The Fretliners w/ Wood Belly",
+   "date": "2026-10-23",
+   "time": "20:00:00",
+   "url": "https://www.bluebirdtheater.net"
+  },
+  {
+   "venue": "Grizzly Rose",
+   "title": "Jackson Dean",
+   "date": "2026-10-23",
+   "time": "20:00:00",
+   "url": "https://www.ticketweb.com/event/jackson-dean-grizzly-rose-tickets/14279194",
+   "type": "concert"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "Odd Mob (16 and Over)",
+   "date": "2026-10-23",
+   "time": "21:00:00",
+   "url": "https://www.missionballroom.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "Dead Floyd: TWO-DAY TICKETS",
+   "date": "2026-10-23",
+   "time": "21:00:00",
+   "url": "https://www.ticketmaster.com/dead-floyd-twoday-tickets-denver-colorado-10-23-2026/event/1E0064EDDB6CBC41",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "Dead Floyd",
+   "date": "2026-10-23",
+   "time": "21:00:00",
+   "url": "https://www.ticketmaster.com/dead-floyd-denver-colorado-10-23-2026/event/1E0064E6C6918265",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Medium Build w/ Bella White",
+   "date": "2026-10-23",
+   "time": "21:00:00",
+   "url": "https://www.gothictheatre.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Broken Hill",
+   "date": "2026-10-23",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/broken-hill-club-vinyl-tickets/14292874",
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Tye Turner",
+   "date": "2026-10-23",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/tye-turner-the-basement-at-club-vinyl-tickets/14340584",
+   "type": "concert"
   }
  ]
 }
