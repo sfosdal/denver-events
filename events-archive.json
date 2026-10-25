@@ -854,6 +854,115 @@
    "time": "22:00:00",
    "url": "https://www.ticketweb.com/event/tye-turner-the-basement-at-club-vinyl-tickets/14340584",
    "type": "concert"
+  },
+  {
+   "venue": "Magness Arena",
+   "title": "Denver Pioneers Hockey vs. Boston College Eagles Hockey",
+   "date": "2026-10-24",
+   "time": "18:00:00",
+   "url": "https://denverpioneers.com/sports/mens-ice-hockey/schedule",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "NCHCHockey.com"
+    ]
+   }
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Denver Nuggets v New Orleans Pelicans",
+   "date": "2026-10-24",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/denver-nuggets-v-new-orleans-pelicans-denver-colorado-10-24-2026/event/1E00650BB730B7CC",
+   "type": "sports"
+  },
+  {
+   "venue": "The Fillmore Auditorium",
+   "title": "Shpongle",
+   "date": "2026-10-24",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/shpongle-denver-colorado-10-24-2026/event/1E006477A4CD73F1",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "bunii",
+   "date": "2026-10-24",
+   "time": "19:00:00",
+   "url": "https://www.bluebirdtheater.net"
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "This Is Lorelei",
+   "date": "2026-10-24",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/this-is-lorelei-denver-colorado-10-24-2026/event/1E0064A797A487A6",
+   "type": "concert"
+  },
+  {
+   "venue": "Chautauqua Auditorium",
+   "title": "Chautauqua Square Dance",
+   "date": "2026-10-24",
+   "time": "19:30",
+   "url": "https://purchase.chautauqua.com/EventAvailability?WebEventId=CCH102426",
+   "type": "community",
+   "soldOut": true
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-10-24",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Boettcher Concert Hall",
+   "title": "The Firebird with Cleo Parker Robinson Dance & John Williams Horn Concerto",
+   "date": "2026-10-24",
+   "time": "19:30:00",
+   "url": "http://www.artscomplex.com",
+   "type": "arts"
+  },
+  {
+   "venue": "Dick's Sporting Goods Park",
+   "title": "Colorado Rapids v Vancouver Whitecaps FC",
+   "date": "2026-10-24",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/colorado-rapids-v-vancouver-whitecaps-fc-commerce-city-colorado-10-24-2026/event/1E006393B6E37AB2",
+   "type": "sports"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "Kettama (16 and Over)",
+   "date": "2026-10-24",
+   "time": "20:00:00",
+   "url": "https://www.missionballroom.com/"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "Dead Floyd",
+   "date": "2026-10-24",
+   "time": "21:00:00",
+   "url": "https://www.ticketmaster.com/dead-floyd-denver-colorado-10-24-2026/event/1E0064E6C6938268",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Brondo",
+   "date": "2026-10-24",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/brondo-club-vinyl-tickets/14284914",
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Desert Hearts",
+   "date": "2026-10-24",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/desert-hearts-the-basement-at-club-vinyl-tickets/14300394",
+   "type": "concert"
   }
  ]
 }
