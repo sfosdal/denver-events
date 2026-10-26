@@ -101,6 +101,7 @@
   var VENUES = {
     // --- Denver: the arena and the stadiums, the Arts Complex, the AEG and Live Nation rooms, the clubs ---
     'Ball Arena': { // the Nuggets', the Avalanche's and the Mammoth's arena, and the biggest concerts
+      geo: [39.74724, -105.01017],
       capacity: 19520,
       type: 'sports',
       cssVar: '--v-ball',
@@ -111,6 +112,7 @@
       alias: /ball arena|pepsi center/i,
     },
     'Empower Field at Mile High': { // the Broncos' stadium and the summer stadium tours
+      geo: [39.74385, -105.02013],
       capacity: 76125,
       type: 'sports',
       cssVar: '--v-empower',
@@ -121,6 +123,7 @@
       alias: /empower field|mile high/i,
     },
     'Coors Field': { // the Rockies' ballpark — Ticketmaster lists nothing there, so the home stands come from MLB's schedule (inject)
+      geo: [39.75644, -104.99428],
       capacity: 50144,
       type: 'sports',
       cssVar: '--v-coors',
@@ -131,6 +134,7 @@
       alias: /coors field/i,
     },
     'Mission Ballroom': { // AEG's big room in RiNo
+      geo: [39.77808, -104.96677],
       capacity: 3950,
       type: 'concert',
       cssVar: '--v-mission',
@@ -141,6 +145,7 @@
       alias: /mission ballroom/i,
     },
     'The Fillmore Auditorium': { // Colfax's old ballroom, Live Nation's
+      geo: [39.74061, -104.97719],
       capacity: 3700,
       type: 'concert',
       cssVar: '--v-fillmore',
@@ -151,6 +156,7 @@
       alias: /fillmore/i,
     },
     'Paramount Theatre': { // the 16th Street art-deco house: comedy, touring bands, the Mighty Wurlitzer
+      geo: [39.74436, -104.99027],
       capacity: 1870,
       type: 'concert',
       cssVar: '--v-paramount',
@@ -161,6 +167,7 @@
       alias: /paramount theat/i,
     },
     'The Buell Theatre': { // the Denver Center's Broadway house
+      geo: [39.74006, -105.00825],
       capacity: 2830,
       type: 'arts',
       cssVar: '--v-buell',
@@ -171,6 +178,7 @@
       alias: /buell theat/i,
     },
     'Ellie Caulkins Opera House': { // Opera Colorado and Colorado Ballet's house in the Arts Complex
+      geo: [39.74006, -105.00825],
       capacity: 2225,
       type: 'arts',
       cssVar: '--v-ellie',
@@ -181,6 +189,7 @@
       alias: /ellie caulkins|the ellie/i,
     },
     'Boettcher Concert Hall': { // the Colorado Symphony's hall
+      geo: [39.7512, -104.9975],
       capacity: 2679,
       type: 'arts',
       cssVar: '--v-boettcher',
@@ -191,6 +200,7 @@
       alias: /boettcher/i,
     },
     'Bellco Theatre': { // the convention center's theatre
+      geo: [39.74219, -104.99628],
       capacity: 5000,
       type: 'concert',
       cssVar: '--v-bellco',
@@ -201,6 +211,7 @@
       alias: /bellco/i,
     },
     'Denver Coliseum': { // the old barn by the stockyards: rodeo, monster trucks, graduations, Latin shows
+      geo: [39.78043, -104.96966],
       capacity: 10200,
       type: 'community',
       cssVar: '--v-coliseum',
@@ -211,6 +222,7 @@
       alias: /denver coliseum/i,
     },
     'National Western Complex': { // the Stock Show grounds and the new Cinch Arena
+      geo: [39.78104, -104.97157],
       capacity: 10000,
       type: 'community',
       cssVar: '--v-nwc',
@@ -221,6 +233,7 @@
       alias: /national western|stock show|cinch arena/i,
     },
     'Ogden Theatre': { // AEG's Colfax room
+      geo: [39.7404, -104.97526],
       capacity: 1600,
       type: 'concert',
       cssVar: '--v-ogden',
@@ -231,6 +244,7 @@
       alias: /ogden theat/i,
     },
     'Bluebird Theater': { // AEG's small Colfax room
+      geo: [39.74019, -104.9484],
       capacity: 550,
       type: 'concert',
       cssVar: '--v-bluebird',
@@ -241,6 +255,7 @@
       alias: /bluebird theat/i,
     },
     'Summit Music Hall': { // Live Nation's Blake Street hall and its Moon Room
+      geo: [39.75334, -104.99507],
       capacity: 1300,
       type: 'concert',
       cssVar: '--v-summit',
@@ -251,6 +266,7 @@
       alias: /summit music hall|the summit|moon room/i,
     },
     'Marquis Theater': { // Live Nation's Larimer Street club
+      geo: [39.75333, -104.99252],
       capacity: 500,
       type: 'concert',
       cssVar: '--v-marquis',
@@ -261,6 +277,7 @@
       alias: /marquis/i,
     },
     'Cervantes\' Masterpiece Ballroom': { // the Five Points ballroom and its Other Side
+      geo: [39.75443, -104.97861],
       capacity: 1000,
       type: 'concert',
       cssVar: '--v-cervantes',
@@ -271,6 +288,7 @@
       alias: /cervantes|other side/i,
     },
     'Ophelia\'s Electric Soapbox': { // the LoDo gastro-brothel's stage
+      geo: [39.75262, -104.99197],
       capacity: 300,
       type: 'concert',
       cssVar: '--v-ophelias',
@@ -281,6 +299,7 @@
       alias: /ophelia'?s/i,
     },
     'Hi-Dive': { // South Broadway's indie room (Ticketmaster carries a few of its shows; most sell on DICE)
+      geo: [39.71633, -104.98785],
       capacity: 300,
       type: 'concert',
       cssVar: '--v-hidive',
@@ -291,6 +310,7 @@
       alias: /hi-?dive/i,
     },
     'Grizzly Rose': { // the country dance hall up I-25
+      geo: [39.7953, -104.98676],
       capacity: 1500,
       type: 'concert',
       cssVar: '--v-grizzly',
@@ -301,6 +321,7 @@
       alias: /grizzly rose/i,
     },
     'Oriental Theater': { // the Berkeley neighbourhood's old cinema
+      geo: [39.77667, -105.04345],
       capacity: 700,
       type: 'concert',
       cssVar: '--v-oriental',
@@ -311,6 +332,7 @@
       alias: /oriental theat/i,
     },
     'Meow Wolf Denver': { // Convergence Station's Perplexiplex stage — the daily admission rows are dropped, the shows kept
+      geo: [39.74099, -105.01558],
       capacity: 500,
       type: 'concert',
       cssVar: '--v-meowwolf',
@@ -321,6 +343,7 @@
       alias: /meow wolf|perplexiplex/i,
     },
     'Comedy Works': { // the Larimer Square basement club (the South room in Greenwood Village is left out)
+      geo: [39.7512, -104.9975],
       capacity: 300,
       type: 'arts',
       cssVar: '--v-comedyworks',
@@ -331,6 +354,7 @@
       alias: /comedy works(?! south)/i,
     },
     'Club Vinyl': { // Broadway's four-floor dance club — the ticketed nights
+      geo: [39.73355, -104.98706],
       capacity: 1000,
       type: 'concert',
       cssVar: '--v-vinyl',
@@ -341,6 +365,7 @@
       alias: /club vinyl/i,
     },
     'Magness Arena': { // DU's rink — Pioneers hockey, the Ritchie Center
+      geo: [39.68297, -104.9609],
       capacity: 6000,
       type: 'sports',
       cssVar: '--v-magness',
@@ -351,6 +376,7 @@
       alias: /magness/i,
     },
     'Levitt Pavilion Denver': { // Ruby Hill Park's free summer stage — its Squarespace calendar (feeds.mjs `squarespace`); empty between September and May
+      geo: [39.68673, -105.00357],
       capacity: 7500,
       type: 'concert',
       cssVar: '--v-levitt',
@@ -362,6 +388,7 @@
     },
     // --- beyond the city: Red Rocks, Fiddler's Green, Englewood, Commerce City, Boulder ---
     'Red Rocks Amphitheatre': { // Morrison — the season runs April to November
+      geo: [39.66774, -105.20897],
       capacity: 9525,
       type: 'concert',
       area: 'town',
@@ -373,6 +400,7 @@
       alias: /red rocks/i,
     },
     'Fiddler\'s Green Amphitheatre': { // Greenwood Village's summer shed
+      geo: [39.60314, -104.89476],
       capacity: 17000,
       type: 'concert',
       area: 'town',
@@ -384,6 +412,7 @@
       alias: /fiddler'?s green/i,
     },
     'Gothic Theatre': { // AEG's Englewood room on South Broadway
+      geo: [39.65578, -104.9877],
       capacity: 1100,
       type: 'concert',
       area: 'town',
@@ -395,6 +424,7 @@
       alias: /gothic theat/i,
     },
     'Dick\'s Sporting Goods Park': { // Commerce City — the Rapids' ground; Ticketmaster lists a few dates, the league's schedule fills the season (inject)
+      geo: [39.80567, -104.89108],
       capacity: 18061,
       type: 'sports',
       area: 'town',
@@ -406,6 +436,7 @@
       alias: /dick'?s sporting goods park|dsg park/i,
     },
     'Folsom Field': { // Boulder — Buffs football, Dead & Company
+      geo: [40.01051, -105.26641],
       capacity: 50183,
       type: 'sports',
       area: 'town',
@@ -417,6 +448,7 @@
       alias: /folsom field/i,
     },
     'CU Events Center': { // Boulder — Buffs basketball (Ticketmaster still calls it the Coors Event Center)
+      geo: [40.00599, -105.26137],
       capacity: 11064,
       type: 'sports',
       area: 'town',
@@ -428,6 +460,7 @@
       alias: /coors events? center|cu events center/i,
     },
     'Boulder Theater': { // Z2's downtown Boulder house
+      geo: [40.01861, -105.2774],
       capacity: 1000,
       type: 'concert',
       area: 'town',
@@ -439,6 +472,7 @@
       alias: /boulder theat/i,
     },
     'Chautauqua Auditorium': { // Boulder's barn-like summer hall; the park's own Events Calendar feed adds the rest of its program (tours, hikes and classes dropped)
+      geo: [39.99786, -105.28138],
       capacity: 1300,
       type: 'concert',
       area: 'town',
@@ -527,6 +561,20 @@
     ics: { name: 'Denver Events', short: 'Denver Events', teams: 'Denver home teams — every season', prodid: '-//here.events//denver-events//EN', uidDomain: 'fosdal.net', // the UID domain the whole family issues (the shared ics test pins it)
       desc: 'Upcoming events in Denver\, CO — Ball Arena\, the stadiums\, Red Rocks\, the Arts Complex\, the Mission\, the Fillmore\, the Colfax rooms\, the clubs and Boulder' },
     teams: TEAMS,
+    map: { // the Map view (local-map.js; the ground drawn once by scripts/build-local-map.mjs from OpenStreetMap, committed as site/local-map.json) — every city gets one, Steve, 2026-10-26
+      kind: 'urban',
+      bbox: [39.541, -105.34, 40.081, -104.833], // south, west, north, east — every room, with a margin
+      home: [39.655, -105.067, 39.823, -104.925], // the view at first: the city's own rooms; the fit button shows the whole frame
+      roads: ['motorway', 'trunk', 'primary'],
+      tolerance: 0.8,
+      labels: [
+        { name: 'Denver', lat: 39.739, lon: -104.99, anchor: 'middle' },
+        { name: 'Morrison', lat: 39.6536, lon: -105.1911, anchor: 'middle' },
+        { name: 'Englewood', lat: 39.64821, lon: -104.98796, anchor: 'middle' },
+        { name: 'Commerce City', lat: 39.80832, lon: -104.93387, anchor: 'middle' },
+        { name: 'Boulder', lat: 40.01499, lon: -105.27054, anchor: 'middle' },
+      ],
+    },
     venues: VENUES,
     feeds: FEEDS,
     defaultOn: DEFAULT_ON,
