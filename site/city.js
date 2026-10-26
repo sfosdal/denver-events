@@ -522,10 +522,10 @@
   // The words the page uses for the place
   var WORDS = {
     teamCity: 'Denver', // the board drops it from the clubs' names ("Denver Nuggets" → Nuggets)
-    presetDefault: 'Every room — Ball Arena, the stadiums, Red Rocks, the Arts Complex, the Colfax rooms, the clubs, Boulder — every team and type',
-    presetNeighborhood: 'Denver proper only — the arena, the stadiums, the Arts Complex, the Mission, the Fillmore, the Colfax rooms and the clubs',
+    presetDefault: 'Every venue — Ball Arena, the stadiums, Red Rocks, the Arts Complex, the Colfax venues, the clubs, Boulder — every team and type',
+    presetNeighborhood: 'Denver proper only — the arena, the stadiums, the Arts Complex, the Mission, the Fillmore, the Colfax venues and the clubs',
     presetBig: 'Only the places that hold 2,000 or more — the arena, the stadiums, Red Rocks, Fiddler\'s Green, the Mission, the Fillmore, the Buell, the Coliseum',
-    phrases: { all: 'Showing everything.', none: 'Showing nothing yet — open Filter and pick some venues.', neighborhood: 'Showing Denver proper only.', big: 'Showing the big rooms only — the arena, the stadiums, Red Rocks, the Mission, the Fillmore, the Buell.' },
+    phrases: { all: 'Showing everything.', none: 'Showing nothing yet — open Filter and pick some venues.', neighborhood: 'Showing Denver proper only.', big: 'Showing the big venues only — the arena, the stadiums, Red Rocks, the Mission, the Fillmore, the Buell.' },
   };
 
   // Colorado's public holidays (app.js holidaysFor reads this instead of its
