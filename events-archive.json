@@ -1026,6 +1026,60 @@
    "time": "22:00:00",
    "url": "https://www.bouldertheater.com/",
    "type": "arts"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Pain Of Truth",
+   "date": "2026-10-26",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/pain-of-truth-denver-colorado-10-26-2026/event/1E0064F7E28C7019",
+   "type": "concert"
+  },
+  {
+   "venue": "Chautauqua Auditorium",
+   "title": "Yuja: A Documentary Film Screening",
+   "date": "2026-10-26",
+   "time": "19:00",
+   "url": "https://purchase.chautauqua.com/EventAvailability?WebEventId=CCH102626",
+   "type": "arts",
+   "soldOut": true
+  },
+  {
+   "venue": "Paramount Theatre",
+   "title": "Dweezil Zappa DZ20: Like Father, Like Son",
+   "date": "2026-10-26",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/dweezil-zappa-dz20-like-father-like-denver-colorado-10-26-2026/event/1E0064BBF0A6784F",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Denver Nuggets v Golden State Warriors",
+   "date": "2026-10-26",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/denver-nuggets-v-golden-state-warriors-denver-colorado-10-26-2026/event/1E00650BB734B7D5",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "NBCSN"
+    ]
+   }
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Failure (16 and Over)",
+   "date": "2026-10-26",
+   "time": "20:00:00",
+   "url": "https://www.bluebirdtheater.net",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Rebecca Black",
+   "date": "2026-10-26",
+   "time": "20:00:00",
+   "url": "https://www.gothictheatre.com/",
+   "type": "concert"
   }
  ]
 }
