@@ -1080,6 +1080,69 @@
    "time": "20:00:00",
    "url": "https://www.gothictheatre.com/",
    "type": "concert"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "The Paradox",
+   "date": "2026-10-27",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/the-paradox-denver-colorado-10-27-2026/event/1E0064CBAF19B3B4",
+   "type": "concert"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-10-27",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Tucker Wetmore",
+   "date": "2026-10-27",
+   "time": "19:30:00",
+   "url": "https://www.redrocksonline.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Gilla Band",
+   "date": "2026-10-27",
+   "time": "20:00:00",
+   "url": "https://www.bluebirdtheater.net",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Akeem Ali",
+   "date": "2026-10-27",
+   "time": "20:00:00",
+   "url": "https://www.deccalive.com/"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "SIX60",
+   "date": "2026-10-27",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/six60-denver-colorado-10-27-2026/event/1E0064D09A576B55",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "Dummy",
+   "date": "2026-10-27",
+   "time": "20:00:00",
+   "url": "https://hi-dive.com/listing/dummy-american-culture-golomb/",
+   "type": "arts"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Speed w/ God's Hate",
+   "date": "2026-10-27",
+   "time": "20:00:00",
+   "url": "https://www.gothictheatre.com/"
   }
  ]
 }
