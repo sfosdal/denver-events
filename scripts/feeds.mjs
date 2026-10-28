@@ -101,6 +101,14 @@
  *                = sold out. `link` is the ticket page, `{id}` filled with the event id's leading
  *                digits — the number the theatre's own purchase site uses (Pentacle Theatre,
  *                Salem 2026-10-20).
+ *   rss        — an RSS feed whose items carry event dates: carbonhouse's venue sites publish the
+ *                whole listing at /events/rss, each item with the title, the event page, the venue
+ *                in `ev:location`, the type in `ev:type` and the first show's instant in
+ *                `ev:startdate`, UTC, which lands on the city's clock via `tz`; a "Cancelled: …" item is skipped. `venues` (a regex
+ *                on ev:location) picks one venue out of a presenter's feed (the Broward Center's
+ *                lists the Parker and the Miniaci too); `drop` takes tours and parking by title;
+ *                past items are left out (Kaseya Center, Amerant Bank Arena, the Watsco Center,
+ *                the Broward Center — Miami, 2026-10-27).
  *   aeg        — an AEG Presents venue site's events JSON (aegwebprod.blob.core.windows.net/json/
  *                events/<n>/events.json, the `data-file` of the site's c-axs-events block — the
  *                site's own /events page answers 403 to every non-browser client): one object per
@@ -652,7 +660,7 @@ async function fetchLinked(url, ua, label, opts) {
  * location.addressTitle room. The clock is the site's own (website.timeZone).
  * Returns [{ venue, title, date, time, url, type? }].
  */
-export function mapSquarespaceEvents(data, { venue, base = '', drop, type, types, label = 'feed' } = {}) {
+export function mapSquarespaceEvents(data, { venue, base = '', drop, type, types, label = 'feed', venues } = {}) {
   const tz = data?.website?.timeZone || 'UTC';
   const fmt = new Intl.DateTimeFormat('sv-SE', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
   const out = [];
@@ -660,6 +668,7 @@ export function mapSquarespaceEvents(data, { venue, base = '', drop, type, types
     if (!Number.isFinite(it.startDate)) continue;
     const title = decode(it.title || '');
     if (!title || (drop && drop.test(title))) continue;
+    if (venues && !venues.test(decode(it.location?.addressTitle || ''))) continue; // another place on a trust's calendar (Bayfront Park's lists Maurice A. Ferré Park too)
     const [date, time] = fmt.format(new Date(it.startDate)).split(' '); // "2026-10-20 19:30"
     const ev = { venue: venue || decode(it.location?.addressTitle || '') || label, title, date, time: time || '', url: it.fullUrl ? new URL(it.fullUrl, base || 'https://localhost/').href : base };
     if (type && (!types || types.includes(type))) ev.type = type;
@@ -672,7 +681,7 @@ async function fetchSquarespace(url, ua, label, opts) {
   const u = new URL(url); u.searchParams.set('format', 'json');
   const res = await fetch(u, { headers: { 'User-Agent': ua, Accept: 'application/json' } });
   if (!res.ok) { console.error(`${label} HTTP ${res.status}`); return []; }
-  const evs = mapSquarespaceEvents(await res.json(), { venue, base: u.origin, drop: drop || feed.drop, type: feed.type || defaultType, types, label });
+  const evs = mapSquarespaceEvents(await res.json(), { venue, base: u.origin, drop: drop || feed.drop, type: feed.type || defaultType, types, label, venues: opts.venues || feed.venues });
   console.log(`${label} (Squarespace): ${evs.length} events`);
   return evs;
 }
@@ -752,11 +761,11 @@ const CARD_MONTHS = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, au
  */
 export function cardDates(text, today = new Date()) {
   const t = decode(text);
-  const iso = /\b(\d{4}-\d{2}-\d{2})\b/.exec(t); // a hidden sort field already in ISO (Lumen Field's Webflow cards, 2026-10-26)
-  if (iso) return [{ date: iso[1], time: cardClock(t.slice(iso.index + iso[0].length)) || cardClock(t) }];
+  const iso = /\b(\d{4}-\d{2}-\d{2})(?:T(\d{2}:\d{2})|\b)/.exec(t); // a hidden sort field already in ISO (Lumen Field's Webflow cards, 2026-10-26); an ISO datetime carries its own wall clock ("2026-11-14T19:30:00-08:00", the Symphony's Tessitura page, 2026-10-27)
+  if (iso) return [{ date: iso[1], time: iso[2] || cardClock(t.slice(iso.index + iso[0].length)) || cardClock(t) }];
   // "October 15, 2026", "December 05-06, 2026", "October 31 - November 2, 2026", "15 Oct", "15 Oct 2026"
   // month first — not a clock's hour after the month ("Oct 7:00 pm") and not the month of a day-first date ("15 Oct")
-  let m = /(?<!\d\s{0,2})([A-Za-z]{3,9})\.?\s+(\d{1,2})(?![:\d])(?:\s*[-–]\s*(?:([A-Za-z]{3,9})\.?\s+)?(\d{1,2}))?(?:,?\s*(\d{4}))?/.exec(t);
+  let m = /(?<!\d\s{0,2})([A-Za-z]{3,9})\.?\s+(\d{1,2})(?![:\d])(?:\s*[-–]\s*(?:([A-Za-z]{3,9})\.?\s+)?(\d{1,2}))?(?:\s*,?\s*(\d{4}))?/.exec(t); // the year may sit in its own span ("29 </span><span>, 2026" — Carbonhouse date markup, 2026-10-27)
   let mon1, d1, mon2, d2, year;
   if (m && CARD_MONTHS[m[1].slice(0, 3).toLowerCase()]) { [mon1, d1, mon2, d2, year] = [m[1], m[2], m[3], m[4], m[5]]; }
   else {
@@ -1118,7 +1127,43 @@ async function fetchSpektrix(url, ua, label, opts) {
   return out;
 }
 
-const KINDS = { tribe: fetchTribe, ics: fetchIcs, tusboletos: fetchTusboletos, jsonld: fetchJsonLd, ticketera: fetchTicketera, icsfile: fetchIcsFile, linked: fetchLinked, squarespace: fetchSquarespace, cards: fetchCards, nps: fetchNps, localist: fetchLocalist, ludus: fetchLudus, boldtype: fetchBoldtype, spektrix: fetchSpektrix, mec: fetchMec, aeg: fetchAeg, plot: fetchPlot };
+// ---- an RSS feed with event dates (carbonhouse's /events/rss) ----
+/**
+ * Every <item> with an `ev:startdate` → a feed event: the title, the event page (`link`), the
+ * venue from `ev:location` unless pinned, the UTC instant on the city's clock (`tz`), the type
+ * from `ev:type` through the shared bank, else the venue's. `venues` keeps the items of one
+ * venue, `drop` leaves titles out, items before `today` are skipped.
+ */
+export function parseRssEvents(xml, { venue, tz = 'UTC', venues, drop, type, types, defaultType, today = '' } = {}) {
+  const allowed = types ? new Set(types) : null;
+  const field = (item, tag) => { const m = new RegExp(`<${tag}>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?</${tag}>`).exec(item); return m ? decode(m[1]).replace(/&apos;/g, "'") : ''; }; // &apos; is XML's, not HTML's (Broward's "Disney&apos;s Beauty and the Beast")
+  const out = [];
+  for (const item of String(xml || '').split(/<item\b[^>]*>/).slice(1)) {
+    const title = field(item, 'title');
+    const start = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})(?::\d{2})?(?:\.\d+)?Z$/.exec(field(item, 'ev:startdate'));
+    if (!title || !start || (drop && drop.test(title)) || /^cancell?ed\b/i.test(title)) continue; // carbonhouse keeps a cancelled show listed under "Cancelled: …"
+    const where = field(item, 'ev:location');
+    if (venues && !venues.test(where)) continue;
+    const w = wallClock(Date.UTC(+start[1], +start[2] - 1, +start[3], +start[4], +start[5]), tz);
+    const ev = { venue: venue || where, title, date: w.slice(0, 10), time: w.slice(11, 16), url: field(item, 'link') || field(item, 'guid') };
+    if (ev.date < today) continue;
+    const t = (type && (!allowed || allowed.has(type)) ? type : null) || tribeType([field(item, 'ev:type')], allowed) || defaultType;
+    if (t) ev.type = t;
+    out.push(ev);
+  }
+  return out;
+}
+async function fetchRss(url, ua, label, opts) {
+  const { feed = {}, venue, types, defaultType, drop, tz } = opts;
+  const res = await fetch(url, { headers: { 'User-Agent': ua, Accept: 'application/rss+xml,application/xml,text/xml,*/*' } });
+  if (!res.ok) { console.error(`${label} HTTP ${res.status}`); return []; }
+  const xml = await res.text();
+  const evs = parseRssEvents(xml, { venue, tz, venues: opts.venues || feed.venues, drop: drop || feed.drop, type: feed.type, types, defaultType, today: new Date().toISOString().slice(0, 10) });
+  console.log(`${label} (RSS): ${evs.length} events from ${(xml.match(/<item\b/g) || []).length} items`);
+  return evs;
+}
+
+const KINDS = { tribe: fetchTribe, ics: fetchIcs, tusboletos: fetchTusboletos, jsonld: fetchJsonLd, ticketera: fetchTicketera, icsfile: fetchIcsFile, linked: fetchLinked, squarespace: fetchSquarespace, cards: fetchCards, nps: fetchNps, localist: fetchLocalist, ludus: fetchLudus, boldtype: fetchBoldtype, spektrix: fetchSpektrix, mec: fetchMec, rss: fetchRss, aeg: fetchAeg, plot: fetchPlot };
 
 /**
  * One source thunk per city.js venue with a `feed` (its listings pinned to that row) and one per
