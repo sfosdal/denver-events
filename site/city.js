@@ -108,7 +108,10 @@
       color: '#e99285',
       url: 'https://www.ballarena.com/',
       icon: 'https://www.google.com/s2/favicons?domain=www.ballarena.com&sz=128',
-      tm: { id: 'KovZpZAFaJeA', match: 'ball arena', fallbackUrl: 'https://www.ballarena.com/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAFaJeA', match: 'ball arena', fallbackUrl: 'https://www.ballarena.com/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      // the arena's own upcoming-events page (KSE's server-rendered cards: "Tue • Oct 27 2026 • 8:00 PM", the title, the Ticketmaster link), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.ballarena.com/events-tickets/upcoming-events/',
+        item: /<div class="card flex-fill">/, title: /(?=[\s\S]*?<a href="([^"]+)")<h5 class="card-title">([^<]+)</, when: /<span class="datetime">\s*([^<]+?)\s*</ },
       alias: /ball arena|pepsi center/i,
     },
     'Empower Field at Mile High': { // the Broncos' stadium and the summer stadium tours
@@ -119,7 +122,7 @@
       color: '#e9a485',
       url: 'https://www.empowerfieldatmilehigh.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.empowerfieldatmilehigh.com&sz=128',
-      tm: { id: 'KovZpa3Wne', match: 'empower', fallbackUrl: 'https://www.empowerfieldatmilehigh.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpa3Wne', match: 'empower', fallbackUrl: 'https://www.empowerfieldatmilehigh.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
       alias: /empower field|mile high/i,
     },
     'Coors Field': { // the Rockies' ballpark — Ticketmaster lists nothing there, so the home stands come from MLB's schedule (inject)
@@ -130,7 +133,7 @@
       color: '#e9b685',
       url: 'https://www.mlb.com/rockies/ballpark',
       icon: 'https://www.google.com/s2/favicons?domain=www.mlb.com&sz=128',
-      tm: { id: 'KovZpZA6t7kA', match: 'coors field', fallbackUrl: 'https://www.mlb.com/rockies/ballpark', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZA6t7kA', match: 'coors field', fallbackUrl: 'https://www.mlb.com/rockies/ballpark', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
       alias: /coors field/i,
     },
     'Mission Ballroom': { // AEG's big room in RiNo
@@ -141,7 +144,8 @@
       color: '#e9c785',
       url: 'https://www.missionballroom.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.missionballroom.com&sz=128',
-      tm: { id: 'KovZ917AxRI', match: 'mission ballroom', fallbackUrl: 'https://www.missionballroom.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZ917AxRI', secondary: true, match: 'mission ballroom', fallbackUrl: 'https://www.missionballroom.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      feed: { kind: 'aeg', url: 'https://aegwebprod.blob.core.windows.net/json/events/89/events.json', venues: /mission ballroom/i }, // AEG's own events JSON (the site's /events page 403s every non-browser client) leads; Ticketmaster fills in behind it (2026-10-27)
       alias: /mission ballroom/i,
     },
     'The Fillmore Auditorium': { // Colfax's old ballroom, Live Nation's
@@ -150,9 +154,12 @@
       type: 'concert',
       cssVar: '--v-fillmore',
       color: '#e9d985',
-      url: 'https://www.fillmoreauditorium.org/events',
+      url: 'https://www.fillmoredenver.com/',
       icon: 'https://www.google.com/s2/favicons?domain=www.fillmoreauditorium.org&sz=128',
-      tm: { id: 'KovZpZAE6eJA', match: 'fillmore', fallbackUrl: 'https://www.fillmoreauditorium.org/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAE6eJA', match: 'fillmore', fallbackUrl: 'https://www.fillmoredenver.com/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      // the venue's own site (fillmoredenver.com, Live Nation's Next.js template: the home page's first 49 show cards are server-rendered, dates without clocks, Ticketmaster links; /shows is client-rendered), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.fillmoredenver.com/', drop: /\bday pass\b|\b\d-day ticket\b/i,
+        item: /<div class="chakra-card css-[a-z0-9]+">/, title: /(?=[\s\S]*?<a class="chakra-button[^"]*" href="(https:\/\/www\.ticketmaster\.com\/[^"]+)")<p class="chakra-text css-zvlevn">([^<]+)<\/p>/, when: /<p class="chakra-text css-zvlevn">[^<]*<\/p><p class="chakra-text css-[a-z0-9]+">([^<]+)<\/p>/ },
       alias: /fillmore/i,
     },
     'Paramount Theatre': { // the 16th Street art-deco house: comedy, touring bands, the Mighty Wurlitzer
@@ -163,7 +170,7 @@
       color: '#e8e985',
       url: 'https://www.paramountdenver.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.paramountdenver.com&sz=128',
-      tm: { id: 'KovZpZAFa1nA', match: 'paramount', fallbackUrl: 'https://www.paramountdenver.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAFa1nA', match: 'paramount', fallbackUrl: 'https://www.paramountdenver.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
       alias: /paramount theat/i,
     },
     'The Buell Theatre': { // the Denver Center's Broadway house
@@ -174,7 +181,10 @@
       color: '#d6e985',
       url: 'https://www.denvercenter.org/tickets-events/',
       icon: 'https://www.google.com/s2/favicons?domain=www.denvercenter.org&sz=128',
-      tm: { id: 'KovZpapEke', match: 'buell', fallbackUrl: 'https://www.denvercenter.org/tickets-events/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpapEke', match: 'buell', fallbackUrl: 'https://www.denvercenter.org/tickets-events/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      // the Denver Center's own grid (WP Grid Builder cards: title, "Oct 2 – Nov 1, 2026" runs read as their opening night (a run spans dark days), the venue term; the Buell's kept by `venues`), secondary behind Ticketmaster, which has every performance (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.denvercenter.org/tickets-events/', venues: /buell/i,
+        item: /<div class="wpgb-card-wrapper">/, title: /<h2 class="wpgb-block-3"><a[^>]*href="([^"]+)">([\s\S]*?)<\/a>/, when: /<div class="wpgb-block-4">([A-Za-z]+ \d{1,2})[^<]*?(\d{4})</, place: /<div class="wpgb-block-5"><span class="wpgb-block-term"[^>]*>([^<]+)</ },
       alias: /buell theat/i,
     },
     'Ellie Caulkins Opera House': { // Opera Colorado and Colorado Ballet's house in the Arts Complex
@@ -185,7 +195,7 @@
       color: '#c4e985',
       url: 'https://www.denvercenter.org/tickets-events/',
       icon: 'https://www.google.com/s2/favicons?domain=www.denvercenter.org&sz=128',
-      tm: { id: 'KovZpZAanEvA', match: 'ellie caulkins', fallbackUrl: 'https://www.denvercenter.org/tickets-events/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAanEvA', match: 'ellie caulkins', fallbackUrl: 'https://www.denvercenter.org/tickets-events/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
       alias: /ellie caulkins|the ellie/i,
     },
     'Boettcher Concert Hall': { // the Colorado Symphony's hall
@@ -196,7 +206,10 @@
       color: '#b3e985',
       url: 'https://coloradosymphony.org/events/',
       icon: 'https://www.google.com/s2/favicons?domain=coloradosymphony.org&sz=128',
-      tm: { id: 'Z6r9jZdv1e', match: 'boettcher', fallbackUrl: 'https://coloradosymphony.org/events/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'Z6r9jZdv1e', match: 'boettcher', fallbackUrl: 'https://coloradosymphony.org/events/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      // the Colorado Symphony's own listing (one production card with every performance's "Thu, Oct 29, 7:30 PM"; the cards reader takes a card's first clock, so a run's later nights come from Ticketmaster), secondary (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://coloradosymphony.org/view-all-events/',
+        item: /<div class="production-event">/, title: /<a class="headline-link" href="([^"]+)">([^<]+)</, when: /<div class="performance-time">([^<]+)</ },
       alias: /boettcher/i,
     },
     'Bellco Theatre': { // the convention center's theatre
@@ -207,7 +220,10 @@
       color: '#a1e985',
       url: 'https://denverconvention.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.denverconvention.com&sz=128',
-      tm: { id: 'KovZpaKBBe', match: 'bellco', fallbackUrl: 'https://denverconvention.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpaKBBe', match: 'bellco', fallbackUrl: 'https://denverconvention.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      // the convention center's own events page (Bootstrap cards for the whole complex; the Bellco's kept by `venues`; a run prints "Oct 23, 2026 to Nov 22, 2026" and reads as its first day), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://denverconvention.com/events', venues: /bellco/i,
+        item: /<div class="card border-0 shadow rounded-4 overflow-hidden h-100">/, title: /(?=[\s\S]*?<a href="([^"]+)" class="btn btn-light btn-sm stretched-link")<h5 class="card-title">([^<]+)</, when: /fa-calendar-day[^>]*><\/i>\s*([^<]+?)\s*</, place: /fa-map-location-dot[^>]*><\/i>\s*([^<]+?)\s*</ },
       alias: /bellco/i,
     },
     'Denver Coliseum': { // the old barn by the stockyards: rodeo, monster trucks, graduations, Latin shows
@@ -218,7 +234,10 @@
       color: '#8fe985',
       url: 'https://www.denvercoliseum.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.denvercoliseum.com&sz=128',
-      tm: { id: 'KovZpZAaeIeA', match: 'coliseum', fallbackUrl: 'https://www.denvercoliseum.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAaeIeA', match: 'coliseum', fallbackUrl: 'https://www.denvercoliseum.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      // the Coliseum's own Carbonhouse listing ("Nov 1" / "Dec 4 - 5" date blocks, no clocks), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.denvercoliseum.com/events',
+        item: /<div class="eventItem entry/, title: /<h3 class="title[^"]*">\s*<a href="([^"]+)"[^>]*>([^<]+)</, when: /<div class="date">([\s\S]*?)<\/div>\s*<h3/ },
       alias: /denver coliseum/i,
     },
     'National Western Complex': { // the Stock Show grounds and the new Cinch Arena
@@ -229,7 +248,8 @@
       color: '#85e98d',
       url: 'https://nationalwesterncenter.com/calendar',
       icon: 'https://www.google.com/s2/favicons?domain=nationalwesterncenter.com&sz=128',
-      tm: { id: 'KovZpZA1EaEA', match: 'national western', fallbackUrl: 'https://nationalwesterncenter.com/calendar', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZA1EaEA', match: 'national western', fallbackUrl: 'https://nationalwesterncenter.com/calendar', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      feed: { kind: 'tribe', secondary: true, url: 'https://nationalwesterncenter.com/wp-json/tribe/events/v1/events', drop: /meeting|taskforce|committee|food market|volunteer|\btours?\b/i }, // the campus's own Events Calendar (its monthly meetings and markets dropped), secondary behind Ticketmaster (2026-10-27)
       alias: /national western|stock show|cinch arena/i,
     },
     'Ogden Theatre': { // AEG's Colfax room
@@ -240,7 +260,8 @@
       color: '#85e99e',
       url: 'https://www.ogdentheatre.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.ogdentheatre.com&sz=128',
-      tm: { id: 'KovZpZAJv67A', match: 'ogden', fallbackUrl: 'https://www.ogdentheatre.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAJv67A', secondary: true, match: 'ogden', fallbackUrl: 'https://www.ogdentheatre.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      feed: { kind: 'aeg', url: 'https://aegwebprod.blob.core.windows.net/json/events/7/events.json', venues: /ogden/i }, // AEG's own events JSON leads; Ticketmaster secondary (2026-10-27)
       alias: /ogden theat/i,
     },
     'Bluebird Theater': { // AEG's small Colfax room
@@ -251,7 +272,8 @@
       color: '#85e9b0',
       url: 'https://www.bluebirdtheater.net/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.bluebirdtheater.net&sz=128',
-      tm: { id: 'KovZpZAkEk1A', match: 'bluebird', fallbackUrl: 'https://www.bluebirdtheater.net/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAkEk1A', secondary: true, match: 'bluebird', fallbackUrl: 'https://www.bluebirdtheater.net/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      feed: { kind: 'aeg', url: 'https://aegwebprod.blob.core.windows.net/json/events/2/events.json', venues: /bluebird/i }, // AEG's own events JSON leads; Ticketmaster secondary (2026-10-27)
       alias: /bluebird theat/i,
     },
     'Summit Music Hall': { // Live Nation's Blake Street hall and its Moon Room
@@ -260,9 +282,12 @@
       type: 'concert',
       cssVar: '--v-summit',
       color: '#85e9c1',
-      url: 'https://www.thesummitdenver.com/events',
+      url: 'https://www.summitdenver.com/',
       icon: 'https://www.google.com/s2/favicons?domain=www.thesummitdenver.com&sz=128',
-      tm: { id: 'KovZpZAFFt1A', match: 'summit', fallbackUrl: 'https://www.thesummitdenver.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAFFt1A', match: 'summit', fallbackUrl: 'https://www.summitdenver.com/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      // the venue's own site (summitdenver.com, Live Nation's template — see the Fillmore), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.summitdenver.com/', drop: /\bday pass\b|\b\d-day ticket\b/i,
+        item: /<div class="chakra-card css-[a-z0-9]+">/, title: /(?=[\s\S]*?<a class="chakra-button[^"]*" href="(https:\/\/www\.ticketmaster\.com\/[^"]+)")<p class="chakra-text css-zvlevn">([^<]+)<\/p>/, when: /<p class="chakra-text css-zvlevn">[^<]*<\/p><p class="chakra-text css-[a-z0-9]+">([^<]+)<\/p>/ },
       alias: /summit music hall|the summit|moon room/i,
     },
     'Marquis Theater': { // Live Nation's Larimer Street club
@@ -271,9 +296,12 @@
       type: 'concert',
       cssVar: '--v-marquis',
       color: '#85e9d3',
-      url: 'https://www.marquistheater.com/events',
+      url: 'https://www.marquisdenver.com/',
       icon: 'https://www.google.com/s2/favicons?domain=www.marquistheater.com&sz=128',
-      tm: { id: 'KovZpZAJeFkA', match: 'marquis', fallbackUrl: 'https://www.marquistheater.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAJeFkA', match: 'marquis', fallbackUrl: 'https://www.marquisdenver.com/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      // the venue's own site (marquisdenver.com, Live Nation's template — see the Fillmore), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.marquisdenver.com/', drop: /\bday pass\b|\b\d-day ticket\b/i,
+        item: /<div class="chakra-card css-[a-z0-9]+">/, title: /(?=[\s\S]*?<a class="chakra-button[^"]*" href="(https:\/\/www\.ticketmaster\.com\/[^"]+)")<p class="chakra-text css-zvlevn">([^<]+)<\/p>/, when: /<p class="chakra-text css-zvlevn">[^<]*<\/p><p class="chakra-text css-[a-z0-9]+">([^<]+)<\/p>/ },
       alias: /marquis/i,
     },
     'Cervantes\' Masterpiece Ballroom': { // the Five Points ballroom and its Other Side
@@ -284,7 +312,10 @@
       color: '#85e9e5',
       url: 'https://www.cervantesmasterpiece.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.cervantesmasterpiece.com&sz=128',
-      tm: { id: 'KovZpZAalekA', match: 'cervantes', fallbackUrl: 'https://www.cervantesmasterpiece.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAalekA', secondary: true, match: 'cervantes', fallbackUrl: 'https://www.cervantesmasterpiece.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      // the club's own Rockhouse listing (both rooms and the dual-venue nights, kept by `venues`; "Tue, Oct 27" + "Show: 6 pm") leads — three times Ticketmaster's rows; Ticketmaster secondary (2026-10-27)
+      feed: { kind: 'cards', url: 'https://cervantesmasterpiece.com/events/', venues: /cervantes/i,
+        item: /<div class = "col-12 eventWrapper rhpSingleEvent/, title: /<a id = "eventTitle" class="url" href="([^"]+)"[^>]*>\s*<h2[^>]*>\s*([\s\S]*?)\s*<\/h2>/, when: /singleEventDate[^"]*">\s*([^<]+?)\s*<\/div>[\s\S]*?rhp-event__time-text--list">[^<]*?(?:Show:\s*)?(\d[^<|]*?)\s*</, place: /class="venueLink"[^>]*>([^<]+)</ },
       alias: /cervantes|other side/i,
     },
     'Ophelia\'s Electric Soapbox': { // the LoDo gastro-brothel's stage
@@ -295,7 +326,10 @@
       color: '#85dce9',
       url: 'https://opheliasdenver.com/',
       icon: 'https://www.google.com/s2/favicons?domain=www.opheliasdenver.com&sz=128',
-      tm: { id: 'KovZ917Aai0', match: 'ophelia', fallbackUrl: 'https://opheliasdenver.com/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZ917Aai0', match: 'ophelia', fallbackUrl: 'https://opheliasdenver.com/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      // the venue's own calendar page (cards: h4 title, day / month / year blocks, "08:00 PM", the Ticketmaster link), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://opheliasdenver.com/calendar/',
+        item: /<div class="events-item">/, title: /(?=[\s\S]*?<a href="([^"]+)"[^>]*class="button")<h4>([^<]+)<\/h4>/, when: /ei-day">\s*(\d{1,2})\s*<\/p>[\s\S]*?<div>\s*<p>([A-Za-z]+)<\/p>\s*<p>(\d{4})<\/p>[\s\S]*?ei-time">\s*<div>\s*<p>\s*([^<]+?)\s*<\/p>/ },
       alias: /ophelia'?s/i,
     },
     'Hi-Dive': { // South Broadway's indie room (Ticketmaster carries a few of its shows; most sell on DICE)
@@ -306,7 +340,8 @@
       color: '#85cae9',
       url: 'https://hi-dive.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=hi-dive.com&sz=128',
-      tm: { id: 'KovZpZAE7I1A', match: 'hi-dive', fallbackUrl: 'https://hi-dive.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAE7I1A', secondary: true, match: 'hi-dive', fallbackUrl: 'https://hi-dive.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      feed: { kind: 'plot', url: 'https://hi-dive.com/api/plot/v1/listings?listingsPerPage=200' }, // the venue's own Plot listings JSON leads (DICE shows Ticketmaster never lists); Ticketmaster secondary (2026-10-27)
       alias: /hi-?dive/i,
     },
     'Grizzly Rose': { // the country dance hall up I-25
@@ -317,7 +352,10 @@
       color: '#85b8e9',
       url: 'https://grizzlyrose.com/events/',
       icon: 'https://www.google.com/s2/favicons?domain=grizzlyrose.com&sz=128',
-      tm: { id: 'KovZpZAFFtFA', match: 'grizzly rose', fallbackUrl: 'https://grizzlyrose.com/events/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAFFtFA', match: 'grizzly rose', fallbackUrl: 'https://grizzlyrose.com/events/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      // the dance hall's own TicketWeb listing (name + "Oct 30", no clocks on the list page), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://grizzlyrose.com/events/',
+        item: /<div class="tw-event-name tw-remove-when-empty">/, title: /<a href="([^"]+)">\s*([^<]+?)\s*<\/a>/, when: /tw-event-date">([^<]+)</ },
       alias: /grizzly rose/i,
     },
     'Oriental Theater': { // the Berkeley neighbourhood's old cinema
@@ -328,7 +366,8 @@
       color: '#85a7e9',
       url: 'https://theorientaltheater.com/events/',
       icon: 'https://www.google.com/s2/favicons?domain=theorientaltheater.com&sz=128',
-      tm: { id: 'KovZpaprpe', match: 'oriental', fallbackUrl: 'https://theorientaltheater.com/events/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpaprpe', secondary: true, match: 'oriental', fallbackUrl: 'https://theorientaltheater.com/events/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      feed: { kind: 'jsonld', url: 'https://theorientaltheater.com/events/' }, // the theater's own page marks every show up as a schema.org Event (HoldMyTicket) — leads, three times Ticketmaster's rows; Ticketmaster secondary (2026-10-27)
       alias: /oriental theat/i,
     },
     'Meow Wolf Denver': { // Convergence Station's Perplexiplex stage — the daily admission rows are dropped, the shows kept
@@ -350,7 +389,10 @@
       color: '#8785e9',
       url: 'https://www.comedyworks.com/',
       icon: 'https://www.google.com/s2/favicons?domain=www.comedyworks.com&sz=128',
-      tm: { id: 'ZFr9jZAeed', match: 'comedy works', fallbackUrl: 'https://www.comedyworks.com/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'ZFr9jZAeed', match: 'comedy works', fallbackUrl: 'https://www.comedyworks.com/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      // the club's own Now Playing strip (a module a date; the first Downtown act's title taken, South's skipped by the title regex; no clocks), secondary behind Ticketmaster (2026-10-27)
+      feed: { kind: 'cards', secondary: true, url: 'https://www.comedyworks.com/',
+        item: /<li class="playing-module/, title: /<h3 class="playing-comedian-title"><a href="([^"]+)">([^<]+)<\/a><\/h3>\s*<p class="playing-comedian-location downtown">/, when: /class="playing-date">([^<]+)</ },
       alias: /comedy works(?! south)/i,
     },
     'Club Vinyl': { // Broadway's four-floor dance club — the ticketed nights
@@ -361,7 +403,7 @@
       color: '#9885e9',
       url: 'https://www.coclubs.com/event-calendar',
       icon: 'https://www.google.com/s2/favicons?domain=www.coclubs.com&sz=128',
-      tm: { id: 'KovZ917AY2e', match: 'vinyl', fallbackUrl: 'https://www.coclubs.com/event-calendar', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZ917AY2e', match: 'vinyl', fallbackUrl: 'https://www.coclubs.com/event-calendar', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
       alias: /club vinyl/i,
     },
     'Magness Arena': { // DU's rink — Pioneers hockey, the Ritchie Center
@@ -372,7 +414,7 @@
       color: '#aa85e9',
       url: 'https://denverpioneers.com/sports/mens-ice-hockey/schedule',
       icon: 'https://www.google.com/s2/favicons?domain=denverpioneers.com&sz=128',
-      tm: { id: 'KovZpZAFa7lA', match: 'magness', fallbackUrl: 'https://denverpioneers.com/sports/mens-ice-hockey/schedule', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAFa7lA', match: 'magness', fallbackUrl: 'https://denverpioneers.com/sports/mens-ice-hockey/schedule', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
       alias: /magness/i,
     },
     'Levitt Pavilion Denver': { // Ruby Hill Park's free summer stage — its Squarespace calendar (feeds.mjs `squarespace`); empty between September and May
@@ -396,7 +438,10 @@
       color: '#cd85e9',
       url: 'https://www.redrocksonline.com/events/',
       icon: 'https://www.google.com/s2/favicons?domain=www.redrocksonline.com&sz=128',
-      tm: { id: 'KovZpZAaeIvA', match: 'red rocks', fallbackUrl: 'https://www.redrocksonline.com/events/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass|yoga on the rocks/i },
+      tm: { id: 'KovZpZAaeIvA', secondary: true, match: 'red rocks', fallbackUrl: 'https://www.redrocksonline.com/events/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass|yoga on the rocks/i },
+      // Red Rocks' own listing (every AXS show with "Tue, Oct 27, 7:30 pm") leads; Ticketmaster secondary (2026-10-27)
+      feed: { kind: 'cards', url: 'https://www.redrocksonline.com/events/', drop: /yoga on the rocks/i,
+        item: /<div class="card card-event/, title: /<a href="([^"]+)" aria-labelledby="card-title\d+">[\s\S]*?<h3 class="card-title"[^>]*>([\s\S]*?)<\/h3>/, when: /<div class="date">\s*([^<]+?)\s*</ },
       alias: /red rocks/i,
     },
     'Fiddler\'s Green Amphitheatre': { // Greenwood Village's summer shed
@@ -408,7 +453,7 @@
       color: '#df85e9',
       url: 'https://www.fiddlersgreenamp.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.fiddlersgreenamp.com&sz=128',
-      tm: { id: 'KovZpZAEkakA', match: 'fiddler', fallbackUrl: 'https://www.fiddlersgreenamp.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAEkakA', match: 'fiddler', fallbackUrl: 'https://www.fiddlersgreenamp.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
       alias: /fiddler'?s green/i,
     },
     'Gothic Theatre': { // AEG's Englewood room on South Broadway
@@ -420,7 +465,8 @@
       color: '#e985e2',
       url: 'https://www.gothictheatre.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.gothictheatre.com&sz=128',
-      tm: { id: 'KovZpZAanJEA', match: 'gothic', fallbackUrl: 'https://www.gothictheatre.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAanJEA', secondary: true, match: 'gothic', fallbackUrl: 'https://www.gothictheatre.com/events', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      feed: { kind: 'aeg', url: 'https://aegwebprod.blob.core.windows.net/json/events/37/events.json', venues: /gothic/i }, // AEG's own events JSON leads; Ticketmaster secondary (2026-10-27)
       alias: /gothic theat/i,
     },
     'Dick\'s Sporting Goods Park': { // Commerce City — the Rapids' ground; Ticketmaster lists a few dates, the league's schedule fills the season (inject)
@@ -432,7 +478,7 @@
       color: '#e985d0',
       url: 'https://www.coloradorapids.com/schedule/',
       icon: 'https://www.google.com/s2/favicons?domain=www.coloradorapids.com&sz=128',
-      tm: { id: 'KovZpZAE7aJA', match: 'dick\'s sporting', fallbackUrl: 'https://www.coloradorapids.com/schedule/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAE7aJA', match: 'dick\'s sporting', fallbackUrl: 'https://www.coloradorapids.com/schedule/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
       alias: /dick'?s sporting goods park|dsg park/i,
     },
     'Folsom Field': { // Boulder — Buffs football, Dead & Company
@@ -444,7 +490,7 @@
       color: '#e985be',
       url: 'https://cubuffs.com/sports/football/schedule',
       icon: 'https://www.google.com/s2/favicons?domain=cubuffs.com&sz=128',
-      tm: { id: 'KovZpZA1EvaA', match: 'folsom', fallbackUrl: 'https://cubuffs.com/sports/football/schedule', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZA1EvaA', match: 'folsom', fallbackUrl: 'https://cubuffs.com/sports/football/schedule', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
       alias: /folsom field/i,
     },
     'CU Events Center': { // Boulder — Buffs basketball (Ticketmaster still calls it the Coors Event Center)
@@ -456,7 +502,7 @@
       color: '#e985ad',
       url: 'https://cubuffs.com/sports/mens-basketball/schedule',
       icon: 'https://www.google.com/s2/favicons?domain=cubuffs.com&sz=128',
-      tm: { id: 'KovZpZA1FEeA', match: 'coors event', fallbackUrl: 'https://cubuffs.com/sports/mens-basketball/schedule', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZA1FEeA', match: 'coors event', fallbackUrl: 'https://cubuffs.com/sports/mens-basketball/schedule', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
       alias: /coors events? center|cu events center/i,
     },
     'Boulder Theater': { // Z2's downtown Boulder house
@@ -468,7 +514,10 @@
       color: '#e9859b',
       url: 'https://www.z2ent.com/venues-we-book/boulder-theater',
       icon: 'https://www.google.com/s2/favicons?domain=www.bouldertheater.com&sz=128',
-      tm: { id: 'KovZpZAanJIA', match: 'boulder theater', fallbackUrl: 'https://www.z2ent.com/venues-we-book/boulder-theater', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZAanJIA', secondary: true, match: 'boulder theater', fallbackUrl: 'https://www.z2ent.com/venues-we-book/boulder-theater', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
+      // Z2's own Webflow listing ("Oct 27, 2026 6:00 PM", the venue field; the Boulder Theater's cards kept by `venues`) leads; Ticketmaster secondary (2026-10-27)
+      feed: { kind: 'cards', url: 'https://www.z2ent.com/venues-we-book/boulder-theater', venues: /boulder theater/i,
+        item: /<div role="listitem" class="events_item w-dyn-item">/, title: /<a[^>]*href="(\/events\/detail\/[^"]+)"[\s\S]*?<h3 class="heading-style-h5">([^<]+)</, when: /<div class="text-size-large text-weight-bold">([A-Z][a-z]{2} \d{1,2}, \d{4}[^<]*)</, place: /fs-list-field="venue" class="text-size-medium[^"]*">([^<]+)</ },
       alias: /boulder theat/i,
     },
     'Chautauqua Auditorium': { // Boulder's barn-like summer hall; the park's own Events Calendar feed adds the rest of its program (tours, hikes and classes dropped)
@@ -480,7 +529,7 @@
       color: '#e98589',
       url: 'https://www.chautauqua.com/events/',
       icon: 'https://www.google.com/s2/favicons?domain=www.chautauqua.com&sz=128',
-      tm: { id: 'KovZpZA1FJJA', match: 'chautauqua', fallbackUrl: 'https://www.chautauqua.com/events/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass/i },
+      tm: { id: 'KovZpZA1FJJA', match: 'chautauqua', fallbackUrl: 'https://www.chautauqua.com/events/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
       feed: { kind: 'tribe', url: 'https://www.chautauqua.com/wp-json/tribe/events/v1/events', drop: /\btour\b|hike|yoga|class|workshop|open house|volunteer|meeting/i },
       alias: /chautauqua/i,
     },
