@@ -1,6 +1,14 @@
 {
  "events": [
   {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Fontaines D.C.",
+   "date": "2026-10-13",
+   "time": "19:30",
+   "url": "https://www.redrocksonline.com/events/fontaines-d-c-1640655/",
+   "type": "concert"
+  },
+  {
    "venue": "Marquis Theater",
    "title": "Jenna Davis",
    "date": "2026-10-15",
@@ -556,6 +564,14 @@
    "time": "20:00:00",
    "url": "https://www.ogdentheatre.com/",
    "type": "concert"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Disney’s Beauty and the Beast",
+   "date": "2026-10-20",
+   "time": "",
+   "url": "https://www.denvercenter.org/tickets-events/beauty-the-beast/",
+   "type": "arts"
   },
   {
    "venue": "Summit Music Hall",
@@ -1143,6 +1159,83 @@
    "date": "2026-10-27",
    "time": "20:00:00",
    "url": "https://www.gothictheatre.com/"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Koe Wetzel",
+   "date": "2026-10-28",
+   "time": "18:45",
+   "url": "https://www.redrocksonline.com/events/koe-wetzel-1345452/",
+   "type": "concert"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Koe Wetzel w/ Wade Bowen",
+   "date": "2026-10-28",
+   "time": "18:45:00",
+   "url": "https://www.redrocksonline.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Colorado Avalanche v New Jersey Devils",
+   "date": "2026-10-28",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/colorado-avalanche-v-new-jersey-devils-denver-colorado-10-28-2026/event/1E0064EEB2BE9EE3",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "ALT"
+    ]
+   }
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Stop Light Observations",
+   "date": "2026-10-28",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/stop-light-observations-denver-colorado-10-28-2026/event/1E0064BE00B674B8",
+   "type": "concert"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-10-28",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "Geese",
+   "date": "2026-10-28",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1407932/geese-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Post Sex Nachos",
+   "date": "2026-10-28",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1412215/post-sex-nachos-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "GEESE (21+ Event)",
+   "date": "2026-10-28",
+   "time": "20:00:00",
+   "url": "https://www.missionballroom.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Post Sex Nachos (16 and Over)",
+   "date": "2026-10-28",
+   "time": "20:00:00",
+   "url": "https://www.bluebirdtheater.net",
+   "type": "concert"
   }
  ]
 }
