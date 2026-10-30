@@ -1236,6 +1236,134 @@
    "time": "20:00:00",
    "url": "https://www.bluebirdtheater.net",
    "type": "concert"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Sophie Hunter Presents: Stereoscope The Tour",
+   "date": "2026-10-29",
+   "time": "",
+   "url": "https://www.ticketmaster.com/sophie-hunter-presents-stereoscope-the-tour-denver-colorado-10-29-2026/event/1E0064D7BC56B4A9",
+   "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Maddy Kelly",
+   "date": "2026-10-29",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/maddy-kelly",
+   "type": "arts"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-10-29",
+   "time": "14:00:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Cypress Hill & Method Man & Redman: Haunted Rocks",
+   "date": "2026-10-29",
+   "time": "18:00",
+   "url": "https://www.redrocksonline.com/events/cypress-hill-method-man-redman-haunted-rocks-1286404/",
+   "type": "concert"
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "Julian St. Nightmare + Tassles + SFRM + Tickle Fight",
+   "date": "2026-10-29",
+   "time": "19:00",
+   "url": "https://hi-dive.com/listing/julian-st-nightmare-tassels-sfrm-tickle-fight/",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Plini",
+   "date": "2026-10-29",
+   "time": "19:00",
+   "url": "https://www.axs.com/events/1464790/plini-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Dan + Shay: The Young Tour",
+   "date": "2026-10-29",
+   "time": "19:00",
+   "url": "https://www.ticketmaster.com/dan-shay-the-young-tour-denver-colorado-10-29-2026/event/1E0064AEC203C212?camefrom=CFC_KSE_RneQapXQUUWeAN6fMjvaWg&utm_source=RneQapXQUUWeAN6fMjvaWg&utm_medium=RneQapXQUUWeAN6fMjvaWg&utm_campaign=RneQapXQUUWeAN6fMjvaWg",
+   "type": "sports"
+  },
+  {
+   "venue": "Boettcher Concert Hall",
+   "title": "Disney Tim Burton’s The Nightmare Before Christmas",
+   "date": "2026-10-29",
+   "time": "19:30",
+   "url": "https://tickets.coloradosymphony.org/7861",
+   "type": "arts"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-10-29",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Boettcher Concert Hall",
+   "title": "Colorado Symphony Orchestra presents Disney Tim Burton???s The Nightmare Before Christmas",
+   "date": "2026-10-29",
+   "time": "19:30:00",
+   "url": "http://www.artscomplex.com",
+   "type": "concert"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Dinosaur Jr.",
+   "date": "2026-10-29",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1499532/dinosaur-jr-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Chaparelle",
+   "date": "2026-10-29",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1528356/chaparelle-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "A Hundred Drums & Zen Selekta w/ Dev, HellGnar, Stemmily – SHIFT 5 Year Anniversary Party",
+   "date": "2026-10-29",
+   "time": "20:00",
+   "url": "https://cervantesmasterpiece.com/event/a-hundred-drums-zen-selekta-w-dev-hellgnar-stemmily-shift-5-year-anniversary-party/cervantes-masterpiece-ballroom/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "An Evening with Shadowgrass **THURSDAY 10/29**",
+   "date": "2026-10-29",
+   "time": "20:00",
+   "url": "https://cervantesmasterpiece.com/event/an-evening-with-shadowgrass-thursday-10-29/cervantes-other-side/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Oriental Theater",
+   "title": "Waterparks",
+   "date": "2026-10-29",
+   "time": "20:00",
+   "url": "https://holdmyticket.com/tickets/465482",
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Sisto: Devour x CST",
+   "date": "2026-10-29",
+   "time": "20:00:00",
+   "url": "https://www.ticketweb.com/event/sisto-devour-x-cst-the-basement-at-club-vinyl-tickets/14348224",
+   "type": "concert"
   }
  ]
 }
