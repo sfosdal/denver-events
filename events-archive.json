@@ -1562,6 +1562,221 @@
    "time": "22:00:00",
    "url": "https://www.ticketweb.com/event/time-machine-80s-90s-2000s-club-vinyl-tickets/14342064",
    "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Kat Bird",
+   "date": "2026-10-31",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/kat-bird",
+   "type": "arts"
+  },
+  {
+   "venue": "Grizzly Rose",
+   "title": "The Grizzly Rose Halloween Ball",
+   "date": "2026-10-31",
+   "time": "",
+   "url": "https://grizzlyrose.com/event/?event_id=14368004",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "The Rock and Roll Playhouse plays Music of Talking Heads for Kids",
+   "date": "2026-10-31",
+   "time": "11:00",
+   "url": "https://www.axs.com/events/1607408/the-rock-and-roll-playhouse-plays-music-of-talking-heads-for-kids-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-10-31",
+   "time": "14:00:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Boettcher Concert Hall",
+   "title": "Colorado Symphony Orchestra w/ The Nightmare Before Christmas in Concert",
+   "date": "2026-10-31",
+   "time": "14:00:00",
+   "url": "http://www.artscomplex.com",
+   "type": "concert"
+  },
+  {
+   "venue": "Grizzly Rose",
+   "title": "The Grizzly Rose Halloween Ball",
+   "date": "2026-10-31",
+   "time": "18:00:00",
+   "url": "https://www.ticketweb.com/event/the-grizzly-rose-halloween-ball-grizzly-rose-tickets/14368004",
+   "type": "concert"
+  },
+  {
+   "venue": "Magness Arena",
+   "title": "Denver Pioneers Hockey vs. Nebraska Omaha Mavericks Hockey",
+   "date": "2026-10-31",
+   "time": "18:00:00",
+   "url": "https://denverpioneers.com/sports/mens-ice-hockey/schedule",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "NCHCHockey.com"
+    ]
+   }
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "Halloween Cover Show: The B52’s + Wire + Misfits + The Monks + Beat Happening + Surprise Set + KYC DJs",
+   "date": "2026-10-31",
+   "time": "19:00",
+   "url": "https://hi-dive.com/listing/halloween-cover-show-the-b52s-wire-misfits-the-monks-beat-happening-kyc-djs-surprise-set/",
+   "type": "concert"
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "Itchy-o Hallowmass 2026",
+   "date": "2026-10-31",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/itchyo-hallowmass-2026-denver-colorado-10-31-2026/event/1E006504E6ED42A4",
+   "type": "concert"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Weatherday",
+   "date": "2026-10-31",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/weatherday-denver-colorado-10-31-2026/event/1E006487CACAC5DC",
+   "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "she's green",
+   "date": "2026-10-31",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/shes-green-denver-colorado-10-31-2026/event/1E0064E993D45C8A",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Jason Leech",
+   "date": "2026-10-31",
+   "time": "19:30",
+   "url": "https://www.axs.com/events/1423221/jason-leech-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Oriental Theater",
+   "title": "Ho99o9 / N8NOFACE",
+   "date": "2026-10-31",
+   "time": "19:30",
+   "url": "https://holdmyticket.com/tickets/464447",
+   "type": "concert"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "deadmau5",
+   "date": "2026-10-31",
+   "time": "19:30",
+   "url": "https://www.redrocksonline.com/events/deadmau5-1407699/",
+   "type": "concert"
+  },
+  {
+   "venue": "Dick's Sporting Goods Park",
+   "title": "Colorado Rapids v Chicago Fire FC",
+   "date": "2026-10-31",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/colorado-rapids-v-chicago-fire-fc-commerce-city-colorado-10-31-2026/event/1E006393B6E77AB4",
+   "type": "sports"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "Whethan - WAREHOUSE.WAVS Tour (360 Show)",
+   "date": "2026-10-31",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1455601/whethan-warehousewavs-tour-360-show-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Shadowgrass",
+   "date": "2026-10-31",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1389160/shadowgrass-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "**Sold Out** The Motet: Funk is Dead ft. Casey Russell, Nick Baum w/ The Jauntee **Saturday 10/31**",
+   "date": "2026-10-31",
+   "time": "20:00",
+   "url": "https://cervantesmasterpiece.com/event/sold-out-the-motet-funk-is-dead-ft-casey-russell-nick-baum-w-the-jauntee-saturday-10-31/cervantes-masterpiece-ballroom/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Runaway Gin – a Tribute to Phish – Special 3-Set Halloween Show Including Mystery Album Cover Set!",
+   "date": "2026-10-31",
+   "time": "20:00",
+   "url": "https://cervantesmasterpiece.com/event/runaway-gin-a-tribute-to-phish-special-3-set-halloween-show-including-mystery-album-cover-set/cervantes-other-side/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Colorado Avalanche v Calgary Flames",
+   "date": "2026-10-31",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/colorado-avalanche-v-calgary-flames-denver-colorado-10-31-2026/event/1E0064EEB2C29EED",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "SN",
+     "ALT"
+    ]
+   }
+  },
+  {
+   "venue": "The Fillmore Auditorium",
+   "title": "Young Nudy",
+   "date": "2026-10-31",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/young-nudy-denver-colorado-10-31-2026/event/1E00651A9A5E7477",
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-10-15T21:05:08.799Z"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Julia Jacklin",
+   "date": "2026-10-31",
+   "time": "21:00",
+   "url": "https://www.axs.com/events/1470842/julia-jacklin-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "DJ Isaac",
+   "date": "2026-10-31",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/dj-isaac-club-vinyl-tickets/14309194",
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "sfam x KUMARION x M?STIC",
+   "date": "2026-10-31",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/sfam-x-kumarion-x-mstic-the-basement-at-club-vinyl-tickets/14301344",
+   "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "Thriller Night with DJ Rockstar Aaron *Rsvp For Free Entry!*",
+   "date": "2026-10-31",
+   "time": "22:30:00",
+   "url": "https://www.ticketmaster.com/thriller-night-with-dj-rockstar-aaron-denver-colorado-10-31-2026/event/1E0065046E9B36A2",
+   "age21": true,
+   "type": "concert"
   }
  ]
 }
