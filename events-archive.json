@@ -1777,6 +1777,133 @@
    "url": "https://www.ticketmaster.com/thriller-night-with-dj-rockstar-aaron-denver-colorado-10-31-2026/event/1E0065046E9B36A2",
    "age21": true,
    "type": "concert"
+  },
+  {
+   "venue": "Denver Coliseum",
+   "title": "Día de Muertos Festival / Day of the Dead Festival",
+   "date": "2026-11-01",
+   "time": "",
+   "url": "https://www.denvercoliseum.com/events/detail/dia-de-muertos-festival-day-of-the-dead-festival-1666244",
+   "type": "community"
+  },
+  {
+   "venue": "National Western Complex",
+   "title": "The Blue Debut",
+   "date": "2026-11-01",
+   "time": "",
+   "url": "https://events.humanitix.com/the-blue-debut-2026",
+   "type": "community"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Ben Roy",
+   "date": "2026-11-01",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/ben-roy",
+   "type": "arts"
+  },
+  {
+   "venue": "Oriental Theater",
+   "title": "Denver School Of Rock",
+   "date": "2026-11-01",
+   "time": "13:30",
+   "url": "https://holdmyticket.com/tickets/467299",
+   "type": "concert"
+  },
+  {
+   "venue": "Empower Field at Mile High",
+   "title": "Denver Broncos vs. Kansas City Chiefs",
+   "date": "2026-11-01",
+   "time": "14:25:00",
+   "url": "https://www.ticketmaster.com/denver-broncos-vs-kansas-city-chiefs-denver-colorado-11-01-2026/event/1E00647989D15926",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "CBS"
+    ]
+   }
+  },
+  {
+   "venue": "Boettcher Concert Hall",
+   "title": "Día de los Muertos Celebration",
+   "date": "2026-11-01",
+   "time": "14:30",
+   "url": "https://tickets.coloradosymphony.org/7888",
+   "type": "arts"
+  },
+  {
+   "venue": "The Fillmore Auditorium",
+   "title": "Mohammed Assaf",
+   "date": "2026-11-01",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/mohammed-assaf-denver-colorado-11-01-2026/event/1E006522BB3BB612",
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-10-15T21:05:08.799Z"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Basement",
+   "date": "2026-11-01",
+   "time": "18:30",
+   "url": "https://www.axs.com/events/1416014/basement-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-11-01",
+   "time": "18:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Teddy Swims: The UGLY Tour",
+   "date": "2026-11-01",
+   "time": "19:00",
+   "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-denver-colorado-11-01-2026/event/1E00648D91186395?camefrom=CFC_KSE_RneQapXQUUWeAN6fMjvaWg&utm_source=RneQapXQUUWeAN6fMjvaWg&utm_medium=RneQapXQUUWeAN6fMjvaWg&utm_campaign=RneQapXQUUWeAN6fMjvaWg",
+   "type": "sports"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Wine Lips",
+   "date": "2026-11-01",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/wine-lips-denver-colorado-11-01-2026/event/1E006542D307DC45",
+   "type": "concert"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "Orville Peck",
+   "date": "2026-11-01",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1525103/orville-peck-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Yandel – SINFÓNICO",
+   "date": "2026-11-01",
+   "time": "20:00",
+   "url": "https://www.redrocksonline.com/events/yandel-sinfonico-1434572/",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Everclear - Lucky 7 Tour",
+   "date": "2026-11-01",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1435019/everclear-lucky-7-tour-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Boulder Theater",
+   "title": "The Tallest Man On Earth with Andrea von Kampen",
+   "date": "2026-11-01",
+   "time": "20:00",
+   "url": "https://www.z2ent.com/events/detail/the-tallest-man-on-earth-2026-bt",
+   "type": "concert"
   }
  ]
 }
