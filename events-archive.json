@@ -2076,6 +2076,94 @@
    "time": "20:00",
    "url": "https://www.redrocksonline.com/events/fuerza-regida-this-is-our-dream-tour-2026-1551458/",
    "type": "concert"
+  },
+  {
+   "venue": "Bellco Theatre",
+   "title": "Stacey Abrams",
+   "date": "2026-11-04",
+   "time": "",
+   "url": "https://denverconvention.com/events/details/colorado-speaker-series2-2",
+   "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Matt Cobos",
+   "date": "2026-11-04",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/matt-cobos",
+   "type": "arts"
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "Vulgarian + Fainting Dreams + Poison Tribe + LeBaron",
+   "date": "2026-11-04",
+   "time": "19:00",
+   "url": "https://hi-dive.com/listing/vulgarian-fainting-dreams-poison-tribe-lebaron/",
+   "type": "concert"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Joshua Slone",
+   "date": "2026-11-04",
+   "time": "19:00",
+   "url": "https://www.redrocksonline.com/events/joshua-slone-1392035/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Denver Nuggets v Toronto Raptors",
+   "date": "2026-11-04",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/denver-nuggets-v-toronto-raptors-denver-colorado-11-04-2026/event/1E00650BB73CB7E4",
+   "type": "sports"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Sparta",
+   "date": "2026-11-04",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/sparta-denver-colorado-11-04-2026/event/1E00650EC55136BC",
+   "type": "concert"
+  },
+  {
+   "venue": "Oriental Theater",
+   "title": "Roadless: On Foot In The Alaskan Wilderness",
+   "date": "2026-11-04",
+   "time": "19:30",
+   "url": "https://holdmyticket.com/tickets/468497",
+   "type": "concert"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-11-04",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Bellco Theatre",
+   "title": "Colorado Speaker Series: Stacy Abrams",
+   "date": "2026-11-04",
+   "time": "19:30:00",
+   "url": "http://bellcotheatre.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "The Band of Heathens & Donavon Frankenreiter",
+   "date": "2026-11-04",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1511115/the-band-of-heathens-donavon-frankenreiter-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "**Sold Out** RØZ Presents: SE Está Haciendo Tarde",
+   "date": "2026-11-04",
+   "time": "20:30",
+   "url": "https://cervantesmasterpiece.com/event/sold-out-r%c3%b8z-presents-se-est%c3%a1-haciendo-tarde/cervantes-masterpiece-ballroom/denver-colorado/",
+   "type": "concert"
   }
  ]
 }
