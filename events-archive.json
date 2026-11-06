@@ -2164,6 +2164,130 @@
    "time": "20:30",
    "url": "https://cervantesmasterpiece.com/event/sold-out-r%c3%b8z-presents-se-est%c3%a1-haciendo-tarde/cervantes-masterpiece-ballroom/denver-colorado/",
    "type": "concert"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "The Hails - Duckpond Tour",
+   "date": "2026-11-05",
+   "time": "",
+   "url": "https://www.ticketmaster.com/the-hails-duckpond-tour-denver-colorado-11-05-2026/event/1E0064D3DF5AF421",
+   "type": "concert"
+  },
+  {
+   "venue": "Oriental Theater",
+   "title": "Reel Rock 20",
+   "date": "2026-11-05",
+   "time": "18:00",
+   "url": "https://holdmyticket.com/tickets/466619",
+   "type": "concert"
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "dälek + Moon Pussy + Shocker Mom",
+   "date": "2026-11-05",
+   "time": "19:00",
+   "url": "https://hi-dive.com/listing/dalek/",
+   "type": "concert"
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "Louie TheSinger",
+   "date": "2026-11-05",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/louie-thesinger-denver-colorado-11-05-2026/event/1E006538E87B246C",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "The War And Treaty",
+   "date": "2026-11-05",
+   "time": "19:30",
+   "url": "https://www.axs.com/events/1485534/the-war-and-treaty-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Colorado Avalanche v Nashville Predators",
+   "date": "2026-11-05",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/colorado-avalanche-v-nashville-predators-denver-colorado-11-05-2026/event/1E0064EEB2C69EF6",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "ESPN+",
+     "HULU",
+     "Disney+",
+     "SN+",
+     "TVAS"
+    ]
+   }
+  },
+  {
+   "venue": "Paramount Theatre",
+   "title": "Candace Bushnell True Tales of Sex, Success, and Sex and the City",
+   "date": "2026-11-05",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/candace-bushnell-true-tales-of-sex-denver-colorado-11-05-2026/event/1E00651996B66DEE",
+   "type": "arts",
+   "status": "cancelled",
+   "statusSince": "2026-10-24T18:26:40.537Z"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-11-05",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Ian Bagg",
+   "date": "2026-11-05",
+   "time": "19:30:00",
+   "url": "https://www.comedyworks.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Alyssa Grace",
+   "date": "2026-11-05",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1592054/alyssa-grace-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "**Sold Out** Parra for Cuva w/ Ben Po",
+   "date": "2026-11-05",
+   "time": "20:00",
+   "url": "https://cervantesmasterpiece.com/event/sold-out-parra-for-cuva-w-ben-po/cervantes-masterpiece-ballroom/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Tacobella w/ Living Dead, Dvrz, The Prfzr",
+   "date": "2026-11-05",
+   "time": "20:00",
+   "url": "https://cervantesmasterpiece.com/event/tacobella-w-living-dead-dvrz-the-prfzr/cervantes-other-side/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "105.5 The Colorado Sound Presents: Lissie with Chris Koza",
+   "date": "2026-11-05",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/1055-the-colorado-sound-presents-lissie-denver-colorado-11-05-2026/event/1E006511776F2C42",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "The War and Treaty",
+   "date": "2026-11-05",
+   "time": "20:00:00",
+   "url": "https://www.bluebirdtheater.net",
+   "type": "concert"
   }
  ]
 }
