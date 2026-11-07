@@ -2288,6 +2288,199 @@
    "time": "20:00:00",
    "url": "https://www.bluebirdtheater.net",
    "type": "concert"
+  },
+  {
+   "venue": "Denver Coliseum",
+   "title": "CHSAA State Gymnastics Championships Day 1",
+   "date": "2026-11-06",
+   "time": "",
+   "url": "https://www.denvercoliseum.com/events/detail/chsaa-state-gymnastics-championships-day-1-1616991",
+   "type": "community"
+  },
+  {
+   "venue": "Denver Coliseum",
+   "title": "Paranormal Cirque",
+   "date": "2026-11-06",
+   "time": "",
+   "url": "https://www.denvercoliseum.com/events/detail/paranormal-cirque",
+   "type": "community"
+  },
+  {
+   "venue": "National Western Complex",
+   "title": "Denver Christmas Show",
+   "date": "2026-11-06",
+   "time": "",
+   "url": "https://events.humanitix.com/denver-christmas-show-2026",
+   "type": "community"
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "L7: The Last Hurrah Tour 2026",
+   "date": "2026-11-06",
+   "time": "",
+   "url": "https://www.ticketmaster.com/l7-the-last-hurrah-tour-2026-denver-colorado-11-06-2026/event/1E0064A6B48DCF3A",
+   "type": "concert"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Great Lake Swimmers - Caught Light Tour 2026",
+   "date": "2026-11-06",
+   "time": "",
+   "url": "https://www.ticketmaster.com/great-lake-swimmers-caught-light-tour-denver-colorado-11-06-2026/event/1E0064D0C534AFE0",
+   "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Emily Catalano",
+   "date": "2026-11-06",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/emily-catalano",
+   "type": "arts"
+  },
+  {
+   "venue": "National Western Complex",
+   "title": "IIDA 2026 Prêt-A-Porter",
+   "date": "2026-11-06",
+   "time": "18:00",
+   "url": "https://www.iidarmc.org/event-details/2026-pret-a-porter",
+   "type": "community"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Dabin",
+   "date": "2026-11-06",
+   "time": "18:30",
+   "url": "https://www.redrocksonline.com/events/dabin-1479059/",
+   "type": "concert"
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "Institute + The Consequence + Candy Apple + Supreme Joy + Glueman (23rd Anniversary Show)",
+   "date": "2026-11-06",
+   "time": "19:00",
+   "url": "https://hi-dive.com/listing/institute-the-consequence-candy-apple-supreme-joy-glueman-23rd-anniversary-show/",
+   "type": "concert"
+  },
+  {
+   "venue": "Oriental Theater",
+   "title": "Stand Together Denver",
+   "date": "2026-11-06",
+   "time": "19:30",
+   "url": "https://holdmyticket.com/tickets/466333",
+   "type": "concert"
+  },
+  {
+   "venue": "Boettcher Concert Hall",
+   "title": "Mozart Requiem with Gemma New & the Colorado Symphony Chorus",
+   "date": "2026-11-06",
+   "time": "19:30",
+   "url": "https://tickets.coloradosymphony.org/7778",
+   "type": "arts"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-11-06",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "Houndmouth",
+   "date": "2026-11-06",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1432443/houndmouth-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Mary Droppinz",
+   "date": "2026-11-06",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1511107/mary-droppinz-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Jammy Buffet",
+   "date": "2026-11-06",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1451140/jammy-buffet-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Daniel Donato’s Cosmic Country",
+   "date": "2026-11-06",
+   "time": "20:00",
+   "url": "https://cervantesmasterpiece.com/event/daniel-donatos-cosmic-country-4/cervantes-masterpiece-ballroom/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Boulder Theater",
+   "title": "Rodrigo y Gabriela",
+   "date": "2026-11-06",
+   "time": "20:00",
+   "url": "https://www.z2ent.com/events/detail/rodrigo-y-gabriela-2026-bt",
+   "type": "concert"
+  },
+  {
+   "venue": "Chautauqua Auditorium",
+   "title": "Blue Canyon Boys",
+   "date": "2026-11-06",
+   "time": "20:00",
+   "url": "https://purchase.chautauqua.com/EventAvailability?WebEventId=CCH110626",
+   "type": "concert"
+  },
+  {
+   "venue": "The Fillmore Auditorium",
+   "title": "Mutate Presents: Restricted",
+   "date": "2026-11-06",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/mutate-presents-restricted-denver-colorado-11-06-2026/event/1E0064CCCB3EE0E0",
+   "type": "concert"
+  },
+  {
+   "venue": "Grizzly Rose",
+   "title": "Chayce Beckham",
+   "date": "2026-11-06",
+   "time": "20:00:00",
+   "url": "https://www.ticketweb.com/event/chayce-beckham-grizzly-rose-tickets/14291044",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "**Sold Out** Izzy Vadim w/ Hexx, Big Nut Chuck, Duality",
+   "date": "2026-11-06",
+   "time": "21:00",
+   "url": "https://cervantesmasterpiece.com/event/sold-out-izzy-vadim-w-hexx-big-nut-chuck-duality/cervantes-other-side/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "KGNU Pres. Los Gaiteros de San Jacinto & Carmelo Torres: Madre Cumbia",
+   "date": "2026-11-06",
+   "time": "21:00:00",
+   "url": "https://www.ticketmaster.com/kgnu-pres-los-gaiteros-de-san-denver-colorado-11-06-2026/event/1E0064F896857DC2",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Benwal",
+   "date": "2026-11-06",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/benwal-the-basement-at-club-vinyl-tickets/14312184",
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Sam Divine",
+   "date": "2026-11-06",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/sam-divine-club-vinyl-tickets/14326724",
+   "type": "concert"
   }
  ]
 }
