@@ -155,7 +155,7 @@
       cssVar: '--v-fillmore',
       color: '#e9d985',
       url: 'https://www.fillmoredenver.com/',
-      icon: 'marks/venues/fillmoreauditorium.org.png',
+      icon: 'marks/venues/fillmoredenver.com.png',
       tm: { id: 'KovZpZAE6eJA', match: 'fillmore', fallbackUrl: 'https://www.fillmoredenver.com/', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
       // the venue's own site (fillmoredenver.com, Live Nation's Next.js template: the home page's first 49 show cards are server-rendered, dates without clocks, Ticketmaster links; /shows is client-rendered), secondary behind Ticketmaster (2026-10-27)
       feed: { kind: 'cards', secondary: true, url: 'https://www.fillmoredenver.com/', drop: /\bday pass\b|\b\d-day ticket\b/i,
