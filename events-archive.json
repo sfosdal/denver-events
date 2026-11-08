@@ -2481,6 +2481,196 @@
    "time": "22:00:00",
    "url": "https://www.ticketweb.com/event/sam-divine-club-vinyl-tickets/14326724",
    "type": "concert"
+  },
+  {
+   "venue": "Denver Coliseum",
+   "title": "Paranormal Cirque",
+   "date": "2026-11-07",
+   "time": "",
+   "url": "https://www.denvercoliseum.com/events/detail/paranormal-cirque",
+   "type": "community"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Emily Catalano",
+   "date": "2026-11-07",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/emily-catalano",
+   "type": "arts"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Get Hitched, Vegas Style",
+   "date": "2026-11-07",
+   "time": "18:00",
+   "url": "https://www.axs.com/events/1643990/get-hitched-vegas-style-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "ATLiens",
+   "date": "2026-11-07",
+   "time": "18:00",
+   "url": "https://www.redrocksonline.com/events/atliens-1467439/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "Margaret Glaspy",
+   "date": "2026-11-07",
+   "time": "18:30:00",
+   "url": "https://www.ticketmaster.com/margaret-glaspy-denver-colorado-11-07-2026/event/1E0064B6787B3795",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Oriental Theater",
+   "title": "Nekrogoblikon",
+   "date": "2026-11-07",
+   "time": "19:00",
+   "url": "https://holdmyticket.com/tickets/463675",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Colorado Avalanche v Detroit Red Wings",
+   "date": "2026-11-07",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/colorado-avalanche-v-detroit-red-wings-denver-colorado-11-07-2026/event/1E0064EEB2CA9F01",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "ALT"
+    ]
+   }
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Cannibal ox \"the Cold Vein\" 25 Year Anniversary - 18+",
+   "date": "2026-11-07",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/cannibal-ox-the-cold-vein-25-denver-colorado-11-07-2026/event/1E006528C3A180EB",
+   "type": "concert"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Beauty And The Beast (Touring)",
+   "date": "2026-11-07",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Ellie Caulkins Opera House",
+   "title": "Macbeth",
+   "date": "2026-11-07",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "Daniel Donato's Cosmic Country",
+   "date": "2026-11-07",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1470345/daniel-donatos-cosmic-country-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Lil Peep 30TH Birthday Celebration",
+   "date": "2026-11-07",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1542221/lil-peep-30th-birthday-celebration-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "Rap Night with Dj $6,000,000 (FREE)",
+   "date": "2026-11-07",
+   "time": "20:00",
+   "url": "https://hi-dive.com/listing/rap-night-with-dj-6000000-free/",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Tank and The Bangas",
+   "date": "2026-11-07",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1377574/tank-and-the-bangas-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Boulder Theater",
+   "title": "Joanne Shaw Taylor with Bywater Call",
+   "date": "2026-11-07",
+   "time": "20:00",
+   "url": "https://www.z2ent.com/events/detail/joanne-shaw-taylor-2026-bt",
+   "type": "concert"
+  },
+  {
+   "venue": "Bellco Theatre",
+   "title": "Ali Wong",
+   "date": "2026-11-07",
+   "time": "20:00:00",
+   "url": "https://www.axs.com/events/1569945/ali-wong-tickets",
+   "type": "arts"
+  },
+  {
+   "venue": "Grizzly Rose",
+   "title": "Bellamy Brothers",
+   "date": "2026-11-07",
+   "time": "20:00:00",
+   "url": "https://www.ticketweb.com/event/bellamy-brothers-grizzly-rose-tickets/14191204",
+   "type": "concert"
+  },
+  {
+   "venue": "Meow Wolf Denver",
+   "title": "Cut Copy",
+   "date": "2026-11-07",
+   "time": "20:00:00",
+   "url": "https://tickets.meowwolf.com/events/denver/cut-copy-dj-set/",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Mfinity (Bass + Ambient Beats Sets) w/ 5AM (Head-nod Set), Phurn, Swomp",
+   "date": "2026-11-07",
+   "time": "20:30",
+   "url": "https://cervantesmasterpiece.com/event/mfinity-bass-ambient-beats-sets-w-5am-head-nod-set-phurn-swomp/cervantes-other-side/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "Stan Society Presents Olivia Rodrigo Night - 18+",
+   "date": "2026-11-07",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/stan-society-presents-olivia-rodrigo-night-denver-colorado-11-07-2026/event/1E0065378887500F",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "House Party",
+   "date": "2026-11-07",
+   "time": "21:30",
+   "url": "https://cervantesmasterpiece.com/event/house-party-2/cervantes-other-side/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "KLOUD",
+   "date": "2026-11-07",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/kloud-the-basement-at-club-vinyl-tickets/14319744",
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Dieselboy x Captain Bass",
+   "date": "2026-11-07",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/dieselboy-x-captain-bass-the-rooftop-at-vinyl-tickets/14368404",
+   "type": "concert"
   }
  ]
 }
