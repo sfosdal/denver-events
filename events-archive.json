@@ -2671,6 +2671,128 @@
    "time": "22:00:00",
    "url": "https://www.ticketweb.com/event/dieselboy-x-captain-bass-the-rooftop-at-vinyl-tickets/14368404",
    "type": "concert"
+  },
+  {
+   "venue": "Denver Coliseum",
+   "title": "TSN Spirit Showcase",
+   "date": "2026-11-08",
+   "time": "",
+   "url": "https://www.denvercoliseum.com/events/detail/tsn-spirit-showcase",
+   "type": "community"
+  },
+  {
+   "venue": "Denver Coliseum",
+   "title": "Paranormal Cirque",
+   "date": "2026-11-08",
+   "time": "",
+   "url": "https://www.denvercoliseum.com/events/detail/paranormal-cirque",
+   "type": "community"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Brandt Tobler",
+   "date": "2026-11-08",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/brandt-tobler",
+   "type": "arts"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Frank Zummo Workshop & Book Tour w/ School of Rock Colorado",
+   "date": "2026-11-08",
+   "time": "12:00",
+   "url": "https://cervantesmasterpiece.com/event/frank-zummo-workshop-book-tour-w-school-of-rock-colorado/cervantes-other-side/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Kroenke Sports Charities Garage Sale",
+   "date": "2026-11-08",
+   "time": "14:00",
+   "url": "https://am.ticketmaster.com/kse/buy/KroenkeSportsCharitiesGarageSale?camefrom=CFC_KSE_RneQapXQUUWeAN6fMjvaWg&utm_source=RneQapXQUUWeAN6fMjvaWg&utm_medium=RneQapXQUUWeAN6fMjvaWg&utm_campaign=RneQapXQUUWeAN6fMjvaWg",
+   "type": "sports"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Face Vocal Band: 25th Anniversary Concert",
+   "date": "2026-11-08",
+   "time": "15:30",
+   "url": "https://www.redrocksonline.com/events/face-vocal-band-25th-anniversary-concert-1400703/",
+   "type": "concert"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "311",
+   "date": "2026-11-08",
+   "time": "19:00",
+   "url": "https://www.axs.com/events/1548186/311-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Oriental Theater",
+   "title": "The Seven Wonders - A Tribute To Fleetwood Mac",
+   "date": "2026-11-08",
+   "time": "19:00",
+   "url": "https://holdmyticket.com/tickets/467287",
+   "type": "concert"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Riff Raff",
+   "date": "2026-11-08",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/riff-raff-denver-colorado-11-08-2026/event/1E00653DC7B4DAE8",
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-10-30T07:40:27.743Z"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Pivot with Kara Swisher and Scott Galloway presented by beehiiv",
+   "date": "2026-11-08",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "The Damned (16 and Over)",
+   "date": "2026-11-08",
+   "time": "19:30:00",
+   "url": "https://www.ogdentheatre.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Freedom Junction (ft. Nathan “Sugarlegg” Aronowitz of Daniel Donato) w/ The Violet Pines",
+   "date": "2026-11-08",
+   "time": "20:00",
+   "url": "https://cervantesmasterpiece.com/event/freedom-junction-ft-nathan-sugarlegg-aronowitz-of-daniel-donato-w-the-violet-pines/cervantes-other-side/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Slothrust",
+   "date": "2026-11-08",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1492107/slothrust-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Boulder Theater",
+   "title": "John Scofield's “Electrospective” ft. Oteil Burbridge, Adam Deitch, Larry Goldings",
+   "date": "2026-11-08",
+   "time": "20:00",
+   "url": "https://www.z2ent.com/events/detail/john-scofield-2026-bt",
+   "type": "concert"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "311 - Ages 16+",
+   "date": "2026-11-08",
+   "time": "20:00:00",
+   "url": "https://www.missionballroom.com/",
+   "type": "concert"
   }
  ]
 }
