@@ -2793,6 +2793,30 @@
    "time": "20:00:00",
    "url": "https://www.missionballroom.com/",
    "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Thick Skin",
+   "date": "2026-11-09",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/thick-skin",
+   "type": "arts"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Static Dress",
+   "date": "2026-11-09",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/static-dress-denver-colorado-11-09-2026/event/1E00650DE1FB8F06",
+   "type": "concert"
+  },
+  {
+   "venue": "Meow Wolf Denver",
+   "title": "The Aces",
+   "date": "2026-11-09",
+   "time": "20:00:00",
+   "url": "https://tickets.meowwolf.com/events/denver/the-aces/",
+   "type": "concert"
   }
  ]
 }
