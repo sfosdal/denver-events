@@ -2817,6 +2817,86 @@
    "time": "20:00:00",
    "url": "https://tickets.meowwolf.com/events/denver/the-aces/",
    "type": "concert"
+  },
+  {
+   "venue": "National Western Complex",
+   "title": "Serving Up Hope",
+   "date": "2026-11-10",
+   "time": "",
+   "url": "https://mic-colorado.org/events/serving-up-hope/",
+   "type": "community"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Joey Avery",
+   "date": "2026-11-10",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/joey-avery",
+   "type": "arts"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Swing Nights Lindy Jam **TUESDAY 11/10**",
+   "date": "2026-11-10",
+   "time": "18:00",
+   "url": "https://cervantesmasterpiece.com/event/swing-nights-lindy-jam-tuesday-11-10/cervantes-other-side/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "Obskuros + Midi Memory + Desasociado",
+   "date": "2026-11-10",
+   "time": "19:00",
+   "url": "https://hi-dive.com/listing/obskuros-midi-memory/",
+   "type": "concert"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Puma Blue",
+   "date": "2026-11-10",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/puma-blue-denver-colorado-11-10-2026/event/1E0064C4CCFEBA5E",
+   "type": "concert"
+  },
+  {
+   "venue": "Paramount Theatre",
+   "title": "Todd Rundgren",
+   "date": "2026-11-10",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/todd-rundgren-denver-colorado-11-10-2026/event/1E0064E290CA77B5",
+   "type": "concert"
+  },
+  {
+   "venue": "Ellie Caulkins Opera House",
+   "title": "Macbeth",
+   "date": "2026-11-10",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Helado Negro and Reyna Tropical as “Helado Tropical” w/ Nina de Freitas",
+   "date": "2026-11-10",
+   "time": "20:00",
+   "url": "https://cervantesmasterpiece.com/event/helado-negro-and-reyna-tropical-as-helado-tropical-w-nina-de-freitas/cervantes-masterpiece-ballroom/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Eivør",
+   "date": "2026-11-10",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1420217/eivr-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Luke Kidgell",
+   "date": "2026-11-10",
+   "time": "20:00:00",
+   "url": "https://www.bluebirdtheater.net",
+   "type": "arts"
   }
  ]
 }
