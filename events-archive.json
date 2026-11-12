@@ -2897,6 +2897,70 @@
    "time": "20:00:00",
    "url": "https://www.bluebirdtheater.net",
    "type": "arts"
+  },
+  {
+   "venue": "The Fillmore Auditorium",
+   "title": "Vince Staples - Cry Baby Tour",
+   "date": "2026-11-11",
+   "time": "",
+   "url": "https://www.ticketmaster.com/vince-staples-cry-baby-tour-denver-colorado-11-11-2026/event/1E0064CBC1ECDA79",
+   "type": "concert"
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "Roman Candle + Exhaler + Tunnel Jumper + Sunshowers",
+   "date": "2026-11-11",
+   "time": "19:00",
+   "url": "https://hi-dive.com/listing/roman-candle-postdrome/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Three Days Grace - Alienation Tour",
+   "date": "2026-11-11",
+   "time": "19:00",
+   "url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-denver-colorado-11-11-2026/event/1E006365AE4A6DBF?camefrom=CFC_KSE_RneQapXQUUWeAN6fMjvaWg&utm_source=RneQapXQUUWeAN6fMjvaWg&utm_medium=RneQapXQUUWeAN6fMjvaWg&utm_campaign=RneQapXQUUWeAN6fMjvaWg",
+   "type": "sports"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Missio",
+   "date": "2026-11-11",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/missio-denver-colorado-11-11-2026/event/1E00650AE1043A95",
+   "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Joey Avery",
+   "date": "2026-11-11",
+   "time": "19:30:00",
+   "url": "https://www.comedyworks.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Bayonne",
+   "date": "2026-11-11",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1413465/bayonne-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Steve Lacy: Oh yeah? Tour",
+   "date": "2026-11-11",
+   "time": "20:00",
+   "url": "https://www.redrocksonline.com/events/steve-lacy-oh-yeahy-tour-1542697/",
+   "type": "concert"
+  },
+  {
+   "venue": "Paramount Theatre",
+   "title": "Tim Heidecker & Gregg Turkington: On Cinema Live",
+   "date": "2026-11-11",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/tim-heidecker-gregg-turkington-on-cinema-denver-colorado-11-11-2026/event/1E0064DABA0B62E0",
+   "type": "arts"
   }
  ]
 }
