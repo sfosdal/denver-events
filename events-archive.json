@@ -2961,6 +2961,119 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/tim-heidecker-gregg-turkington-on-cinema-denver-colorado-11-11-2026/event/1E0064DABA0B62E0",
    "type": "arts"
+  },
+  {
+   "venue": "National Western Complex",
+   "title": "The Feed. HYROX Denver",
+   "date": "2026-11-12",
+   "time": "",
+   "url": "https://events.humanitix.com/hyrox-denver",
+   "type": "community"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "Dear Jack Foundation's 10th Annual VIP Night",
+   "date": "2026-11-12",
+   "time": "17:30:00",
+   "url": "https://www.ticketmaster.com/dear-jack-foundations-10th-annual-vip-denver-colorado-11-12-2026/event/1E0064F5B3ABA2F4",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "Clipse & J.I.D",
+   "date": "2026-11-12",
+   "time": "18:00",
+   "url": "https://www.redrocksonline.com/events/clipse-j-i-d-1439908/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "GWAR",
+   "date": "2026-11-12",
+   "time": "19:00",
+   "url": "https://www.axs.com/events/1415427/gwar-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "Big Signal + Modern Leisure + Gooey Cookie",
+   "date": "2026-11-12",
+   "time": "19:00",
+   "url": "https://hi-dive.com/listing/big-signal-modern-leisure-gooey-cookie/",
+   "type": "concert"
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "Fox Stevenson & Mystery Skulls",
+   "date": "2026-11-12",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/fox-stevenson-mystery-skulls-denver-colorado-11-12-2026/event/1E006518E7740E18",
+   "type": "concert"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Agriculture",
+   "date": "2026-11-12",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/agriculture-denver-colorado-11-12-2026/event/1E0064D9DCD34EB8",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "**Sold Out** Abbie Gamboa w/ Chelsea Plank",
+   "date": "2026-11-12",
+   "time": "19:30",
+   "url": "https://cervantesmasterpiece.com/event/sold-out-abbie-gamboa-w-chelsea-plank/cervantes-masterpiece-ballroom/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Oriental Theater",
+   "title": "Beacons & Brews. ***Sold Out***",
+   "date": "2026-11-12",
+   "time": "19:30",
+   "url": "https://holdmyticket.com/tickets/467973",
+   "type": "concert"
+  },
+  {
+   "venue": "Boulder Theater",
+   "title": "Warren Miller's Days Off - Day 1",
+   "date": "2026-11-12",
+   "time": "19:30",
+   "url": "https://www.z2ent.com/events/detail/warren-millers-days-off-1-2026-bt",
+   "type": "concert"
+  },
+  {
+   "venue": "Paramount Theatre",
+   "title": "The Musical Box",
+   "date": "2026-11-12",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/the-musical-box-denver-colorado-11-12-2026/event/1E0064BCA82BBDEB",
+   "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Ashley Gavin",
+   "date": "2026-11-12",
+   "time": "19:30:00",
+   "url": "https://www.comedyworks.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Capochino - Ages 16+",
+   "date": "2026-11-12",
+   "time": "20:00:00",
+   "url": "https://www.cervantesmasterpiece.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "**Sold Out** Shift Ft. Capochino w/ AG, Brittz, Panda $tyle",
+   "date": "2026-11-12",
+   "time": "20:30",
+   "url": "https://cervantesmasterpiece.com/event/sold-out-shift-ft-capochino-w-ag-brittz-panda-tyle/cervantes-other-side/denver-colorado/",
+   "type": "concert"
   }
  ]
 }
