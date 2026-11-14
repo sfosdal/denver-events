@@ -3074,6 +3074,187 @@
    "time": "20:30",
    "url": "https://cervantesmasterpiece.com/event/sold-out-shift-ft-capochino-w-ag-brittz-panda-tyle/cervantes-other-side/denver-colorado/",
    "type": "concert"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "GRYFFIN",
+   "date": "2026-11-13",
+   "time": "18:00",
+   "url": "https://www.redrocksonline.com/events/gryffin-1394914/",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Earlybirds Club - Y2K Night",
+   "date": "2026-11-13",
+   "time": "18:00",
+   "url": "https://www.axs.com/events/1618443/earlybirds-club-y2k-night-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "Aurat + Ms. Boan + Meldamor + SRSQ + Mona Xeca + Ghost Blonde (Kill You Club 9-Year Anniversary)",
+   "date": "2026-11-13",
+   "time": "19:00",
+   "url": "https://hi-dive.com/listing/aurat-ms-boan-meldamor-srsq-mona-xeca-ghost-blonde-kill-you-club-9-year-anniversary/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Disney On Ice presents Find Your Hero",
+   "date": "2026-11-13",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/disney-on-ice-presents-find-your-denver-colorado-11-13-2026/event/1E006479372782DC"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "KGNU Presents Armand Hammer",
+   "date": "2026-11-13",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/kgnu-presents-armand-hammer-denver-colorado-11-13-2026/event/1E006392A76D6CCF",
+   "type": "concert"
+  },
+  {
+   "venue": "Magness Arena",
+   "title": "Denver Pioneers Hockey vs. Lindenwood Lions Mens Hockey",
+   "date": "2026-11-13",
+   "time": "19:00:00",
+   "url": "https://denverpioneers.com/sports/mens-ice-hockey/schedule",
+   "type": "sports"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Ashley Gavin",
+   "date": "2026-11-13",
+   "time": "19:15:00",
+   "url": "https://www.comedyworks.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "Oriental Theater",
+   "title": "Wish We Were Floyd - Pink Floyd Tribute",
+   "date": "2026-11-13",
+   "time": "19:30",
+   "url": "https://holdmyticket.com/tickets/467662",
+   "type": "concert"
+  },
+  {
+   "venue": "Boulder Theater",
+   "title": "Warren Miller's Days Off - Day 2",
+   "date": "2026-11-13",
+   "time": "19:30",
+   "url": "https://www.z2ent.com/events/detail/warren-millers-days-off-2-2026-bt",
+   "type": "concert"
+  },
+  {
+   "venue": "Boettcher Concert Hall",
+   "title": "Andrew McMahon with the Colorado Symphony",
+   "date": "2026-11-13",
+   "time": "19:30",
+   "url": "https://tickets.coloradosymphony.org/7948",
+   "type": "arts"
+  },
+  {
+   "venue": "Ellie Caulkins Opera House",
+   "title": "Macbeth",
+   "date": "2026-11-13",
+   "time": "19:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Boettcher Concert Hall",
+   "title": "Andrew McMahon w/ Colorado Symphony Orchestra",
+   "date": "2026-11-13",
+   "time": "19:30:00",
+   "url": "http://www.artscomplex.com",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Bahamas",
+   "date": "2026-11-13",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1355585/bahamas-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Chautauqua Auditorium",
+   "title": "Sheela Bringi & Elden Kelly",
+   "date": "2026-11-13",
+   "time": "20:00",
+   "url": "https://purchase.chautauqua.com/EventAvailability?WebEventId=CCH111326",
+   "type": "concert"
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "Amtrac - 18+",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/amtrac-18-denver-colorado-11-13-2026/event/1E00650B96C2791B",
+   "type": "concert"
+  },
+  {
+   "venue": "Grizzly Rose",
+   "title": "Joe Nichols",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "https://www.ticketweb.com/event/joe-nichols-grizzly-rose-tickets/14264504",
+   "type": "concert"
+  },
+  {
+   "venue": "Folsom Field",
+   "title": "Colorado Buffaloes Football vs. Houston Cougars Football",
+   "date": "2026-11-13",
+   "time": "20:15:00",
+   "url": "https://cubuffs.com/sports/football/schedule",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "ESPN"
+    ]
+   }
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Desert Dwellers w/ Entangled Mind, Māh Ze Tār, Living Light (Ballroom) + Great Dane w/ KiLO, Nyrus (Other Side)",
+   "date": "2026-11-13",
+   "time": "20:30",
+   "url": "https://cervantesmasterpiece.com/event/desert-dwellers-w-entangled-mind-m%c4%81h-ze-t%c4%81r-living-light-ballroom-great-dane-w-kilo-nyrus-other-side/cervantes-and-other-side-dual-venue/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "Levi Bloom with Grayson Ratliff",
+   "date": "2026-11-13",
+   "time": "21:00:00",
+   "url": "https://www.ticketmaster.com/levi-bloom-with-grayson-ratliff-denver-colorado-11-13-2026/event/1E006518C349BFDA",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Deborah de Luca",
+   "date": "2026-11-13",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/deborah-de-luca-the-rooftop-at-vinyl-tickets/14352314",
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Kyle Starkey x Paige Tomlinson",
+   "date": "2026-11-13",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/kyle-starkey-x-paige-tomlinson-the-basement-at-club-vinyl-tickets/14350574",
+   "type": "concert"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "MaRLo",
+   "date": "2026-11-13",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/marlo-club-vinyl-tickets/14356944",
+   "type": "concert"
   }
  ]
 }
