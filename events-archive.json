@@ -3501,6 +3501,92 @@
    "time": "22:00:00",
    "url": "https://www.ticketweb.com/event/adam-stark-julian-gray-the-rooftop-at-vinyl-tickets/14357234",
    "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Ashley Gavin",
+   "date": "2026-11-15",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/ashley-gavin",
+   "type": "arts"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Disney On Ice presents Find Your Hero",
+   "date": "2026-11-15",
+   "time": "10:30:00",
+   "url": "https://www.ticketmaster.com/disney-on-ice-presents-find-your-denver-colorado-11-15-2026/event/1E006479407B8BDF"
+  },
+  {
+   "venue": "Ellie Caulkins Opera House",
+   "title": "Macbeth",
+   "date": "2026-11-15",
+   "time": "14:00:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Disney On Ice presents Find Your Hero",
+   "date": "2026-11-15",
+   "time": "14:30:00",
+   "url": "https://www.ticketmaster.com/disney-on-ice-presents-find-your-denver-colorado-11-15-2026/event/1E00647941108C5A"
+  },
+  {
+   "venue": "Red Rocks Amphitheatre",
+   "title": "mike.",
+   "date": "2026-11-15",
+   "time": "15:15",
+   "url": "https://www.redrocksonline.com/events/mike-with-opening-set-from-dj-stevie-daniels-1261297/",
+   "type": "concert"
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "VOILÀ Presents: Moonbloom",
+   "date": "2026-11-15",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/voila-presents-moonbloom-denver-colorado-11-15-2026/event/1E0064BDE81D539D",
+   "type": "concert"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "The Living Tombstone",
+   "date": "2026-11-15",
+   "time": "19:00",
+   "url": "https://www.axs.com/events/1350762/the-living-tombstone-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Geordie Kieffer",
+   "date": "2026-11-15",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/geordie-kieffer-denver-colorado-11-15-2026/event/1E00651B8A8E59BF",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "half•alive: Billions Tour",
+   "date": "2026-11-15",
+   "time": "19:45",
+   "url": "https://www.axs.com/events/1590243/halfalive-billions-tour-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "The Black Angels",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1405051/the-black-angels-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Bellco Theatre",
+   "title": "Pedro Fernández - Ave Fénix Two'r",
+   "date": "2026-11-15",
+   "time": "20:00:00",
+   "url": "https://www.axs.com/events/1552306/pedro-fernandez-tickets",
+   "type": "concert"
   }
  ]
 }
