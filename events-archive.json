@@ -3587,6 +3587,52 @@
    "time": "20:00:00",
    "url": "https://www.axs.com/events/1552306/pedro-fernandez-tickets",
    "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Thick Skin",
+   "date": "2026-11-16",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/thick-skin",
+   "type": "arts"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Denver Nuggets v Phoenix Suns",
+   "date": "2026-11-16",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/denver-nuggets-v-phoenix-suns-denver-colorado-11-16-2026/event/1E00650BB73FB7EF",
+   "type": "sports",
+   "tickets": {
+    "box": 0,
+    "resale": 0,
+    "checked": "2026-11-16T23:17:10.396Z",
+    "from": 20
+   },
+   "soldOut": true
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Hurricane Wisdom",
+   "date": "2026-11-16",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/hurricane-wisdom-denver-colorado-11-16-2026/event/1E00650DCF913540",
+   "type": "concert",
+   "tickets": {
+    "box": 0,
+    "resale": 8,
+    "checked": "2026-11-16T23:17:12.550Z",
+    "from": 77
+   },
+   "soldOut": true
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Headache",
+   "date": "2026-11-16",
+   "time": "19:30",
+   "url": "https://www.axs.com/events/1446042/headache-tickets",
+   "type": "concert"
   }
  ]
 }
