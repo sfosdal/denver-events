@@ -3689,6 +3689,103 @@
    "time": "20:00:00",
    "url": "https://www.ogdentheatre.com/",
    "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Jimbo the Drag Clown",
+   "date": "2026-11-18",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/jimbo-the-drag-clown",
+   "type": "arts"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "AEW Presents Dynamite",
+   "date": "2026-11-18",
+   "time": "17:30",
+   "url": "https://www.axs.com/events/1608376/aew-presents-dynamite-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Boulder Theater",
+   "title": "Save the Merc Benefit",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "url": "https://www.z2ent.com/events/detail/save-the-merc-2026-bt",
+   "type": "concert"
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "Dry Ice + Cop Killer + Mouthful",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "url": "https://hi-dive.com/listing/dry-ice-cop-killer-mouthful/",
+   "type": "concert"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "1 Umbrella",
+   "date": "2026-11-18",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/1-umbrella-denver-colorado-11-18-2026/event/1E00652ADD9CCA3C",
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-11-12T19:15:02.236Z"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Denver Nuggets v Boston Celtics",
+   "date": "2026-11-18",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/denver-nuggets-v-boston-celtics-denver-colorado-11-18-2026/event/1E00650BB743B7F4",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "ESPN"
+    ]
+   },
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-16T23:29:30.792Z",
+    "from": 39.25
+   }
+  },
+  {
+   "venue": "Dick's Sporting Goods Park",
+   "title": "Wild Card: Colorado Rapids vs. TBD",
+   "date": "2026-11-18",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/wild-card-colorado-rapids-vs-tbd-commerce-city-colorado-11-18-2026/event/1E006548CD11B88C",
+   "type": "sports",
+   "status": "cancelled",
+   "statusSince": "2026-11-08T19:15:37.588Z"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Ivy Queen",
+   "date": "2026-11-18",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1622807/ivy-queen-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Vansire",
+   "date": "2026-11-18",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1539037/vansire-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Peyton Parrish",
+   "date": "2026-11-18",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1592100/peyton-parrish-tickets",
+   "status": "cancelled",
+   "type": "concert",
+   "statusSince": "2026-10-29T01:13:07.166Z"
   }
  ]
 }
