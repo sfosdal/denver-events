@@ -3786,6 +3786,166 @@
    "status": "cancelled",
    "type": "concert",
    "statusSince": "2026-10-29T01:13:07.166Z"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "The Burial Plot - Final Show",
+   "date": "2026-11-19",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/the-burial-plot-final-show-denver-colorado-11-19-2026/event/1E00650BADCEA523",
+   "type": "concert",
+   "tickets": {
+    "box": 218,
+    "resale": 0,
+    "checked": "2026-11-17T00:15:27.540Z",
+    "from": 18
+   }
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "Triangle Introverts + Moonpool + Evil Twin",
+   "date": "2026-11-19",
+   "time": "19:00",
+   "url": "https://hi-dive.com/listing/triangle-introverts-jack-long-band-spin-move/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Colorado Avalanche v Anaheim Ducks",
+   "date": "2026-11-19",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/colorado-avalanche-v-anaheim-ducks-denver-colorado-11-19-2026/event/1E0064EEB2CE9F0C",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "TVAS",
+     "KUSA",
+     "ALT",
+     "KTVD"
+    ]
+   },
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T00:15:47.547Z",
+    "from": 76.4
+   }
+  },
+  {
+   "venue": "Paramount Theatre",
+   "title": "A Twilight Conversation with Ashley Greene & Kellan Lutz",
+   "date": "2026-11-19",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/a-twilight-conversation-with-ashley-greene-denver-colorado-11-19-2026/event/1E00650690CE7F16",
+   "type": "movie",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T00:16:07.680Z",
+    "from": 41.05
+   }
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "almost monday",
+   "date": "2026-11-19",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/almost-monday-denver-colorado-11-19-2026/event/1E0064D3A6149958",
+   "type": "concert",
+   "tickets": {
+    "box": 0,
+    "resale": 0,
+    "checked": "2026-11-17T00:16:27.840Z",
+    "from": 199.15
+   },
+   "soldOut": true
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Shwayze w/ Asher Roth and Chiddy Bang",
+   "date": "2026-11-19",
+   "time": "19:30",
+   "url": "https://cervantesmasterpiece.com/event/shwayze-w-asher-roth-and-chiddy-bang/cervantes-other-side/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Oriental Theater",
+   "title": "Mortified 10TH Anniversary Special!",
+   "date": "2026-11-19",
+   "time": "19:30",
+   "url": "https://holdmyticket.com/tickets/467481",
+   "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Mo Amer",
+   "date": "2026-11-19",
+   "time": "19:30:00",
+   "url": "https://www.comedyworks.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "Bonobo",
+   "date": "2026-11-19",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1474822/bonobo-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Just Between Us Tour - Chicks in the Office",
+   "date": "2026-11-19",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1605461/just-between-us-tour-chicks-in-the-office-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Russian Circles",
+   "date": "2026-11-19",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1496244/russian-circles-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Boulder Theater",
+   "title": "San Pacho with Gallow, TØLLE",
+   "date": "2026-11-19",
+   "time": "20:00",
+   "url": "https://www.z2ent.com/events/detail/san-pacho-2026-bt",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Shwayze - Ages 16+",
+   "date": "2026-11-19",
+   "time": "20:00:00",
+   "url": "https://www.cervantesmasterpiece.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "SHIFT Ft. Wub Zero w/ The Gradient Perspective Live Band, Dark City Agent, Twizzled",
+   "date": "2026-11-19",
+   "time": "20:30",
+   "url": "https://cervantesmasterpiece.com/event/shift-ft-wub-zero-w-the-gradient-perspective-live-band-dark-city-agent-twizzled/cervantes-masterpiece-ballroom/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "Breakthrough Presents: Vertical Horizon",
+   "date": "2026-11-19",
+   "time": "20:45:00",
+   "url": "https://www.ticketmaster.com/breakthrough-presents-vertical-horizon-denver-colorado-11-19-2026/event/1E006512E3864980",
+   "age21": true,
+   "type": "concert",
+   "tickets": {
+    "box": 242,
+    "resale": 0,
+    "checked": "2026-11-17T00:16:30.765Z",
+    "from": 78
+   }
   }
  ]
 }
