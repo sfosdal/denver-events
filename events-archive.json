@@ -4201,6 +4201,312 @@
     "checked": "2026-11-16T23:13:36.817Z",
     "from": 24.95
    }
+  },
+  {
+   "venue": "The Fillmore Auditorium",
+   "title": "Underoath - Define the Great Line 20th Anniversary Tour",
+   "date": "2026-11-21",
+   "time": "",
+   "url": "https://www.ticketmaster.com/underoath-define-the-great-line-20th-denver-colorado-11-21-2026/event/1E0064C4967A6E08",
+   "type": "concert",
+   "tickets": {
+    "box": 0,
+    "resale": 0,
+    "checked": "2026-11-21T00:34:26.054Z",
+    "from": 89.44
+   },
+   "soldOut": true
+  },
+  {
+   "venue": "Denver Coliseum",
+   "title": "Road 2 State",
+   "date": "2026-11-21",
+   "time": "",
+   "url": "https://www.denvercoliseum.com/events/detail/road-2-state-1",
+   "type": "community"
+  },
+  {
+   "venue": "National Western Complex",
+   "title": "UFC BJJ Opens",
+   "date": "2026-11-21",
+   "time": "",
+   "url": "https://ufcbjj.smoothcomp.com/en/event/34332",
+   "type": "community"
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Stephen Day Presents: The Self Titled Tour",
+   "date": "2026-11-21",
+   "time": "",
+   "url": "https://www.ticketmaster.com/stephen-day-presents-the-self-titled-denver-colorado-11-21-2026/event/1E0064C3F0F93CAA",
+   "type": "concert",
+   "tickets": {
+    "box": 258,
+    "resale": 0,
+    "checked": "2026-11-21T00:34:28.361Z",
+    "from": 25
+   }
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Bluey’s Big Play",
+   "date": "2026-11-21",
+   "time": "",
+   "url": "https://www.denvercenter.org/tickets-events/blueys-big-play/",
+   "type": "arts"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "The Rock and Roll Playhouse plays Music of Dolly Parton for Kids",
+   "date": "2026-11-21",
+   "time": "11:00",
+   "url": "https://www.axs.com/events/1644063/the-rock-and-roll-playhouse-plays-music-of-dolly-parton-for-kids-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Bluey's Big Play - The Stage Show (Recommended for Ages 2 and Over. A ticket is required for each patron in attendance)",
+   "date": "2026-11-21",
+   "time": "13:30:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+   "date": "2026-11-21",
+   "time": "15:00:00",
+   "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-denver-colorado-11-21-2026/event/1E006511C7C2B996",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T00:44:29.135Z",
+    "from": 99
+   }
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Bluey's Big Play - The Stage Show (Recommended for Ages 2 and Over. A ticket is required for each patron in attendance)",
+   "date": "2026-11-21",
+   "time": "17:00:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "State Champs - 10 Years Of 'Around The World And Back'",
+   "date": "2026-11-21",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/state-champs-10-years-of-around-denver-colorado-11-21-2026/event/1E0064CBC1FCDA84",
+   "type": "concert"
+  },
+  {
+   "venue": "Magness Arena",
+   "title": "Denver Pioneers Hockey vs. St. Thomas Tommies Hockey",
+   "date": "2026-11-21",
+   "time": "18:00:00",
+   "url": "https://denverpioneers.com/sports/mens-ice-hockey/schedule",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "Altitude Sports",
+     "NCHCHockey.com"
+    ]
+   }
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "Death Possession + Volunteer Coroner + Dysheathen",
+   "date": "2026-11-21",
+   "time": "19:00",
+   "url": "https://hi-dive.com/listing/death-possession-volunteer-coroner-dysheathen/",
+   "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Mo Amer",
+   "date": "2026-11-21",
+   "time": "19:00:00",
+   "url": "https://www.comedyworks.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Foy Vance (16 and Over)",
+   "date": "2026-11-21",
+   "time": "19:00:00",
+   "url": "https://www.gothictheatre.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Oriental Theater",
+   "title": "Disco Revue",
+   "date": "2026-11-21",
+   "time": "19:30",
+   "url": "https://holdmyticket.com/tickets/466988",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+   "date": "2026-11-21",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-denver-colorado-11-21-2026/event/1E006511C79AB936",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-21T00:35:28.840Z",
+    "from": 10
+   }
+  },
+  {
+   "venue": "Paramount Theatre",
+   "title": "Warren Miller's \"Days Off\"",
+   "date": "2026-11-21",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/warren-millers-days-off-denver-colorado-11-21-2026/event/1E006523AD4BAA73",
+   "type": "movie"
+  },
+  {
+   "venue": "Boettcher Concert Hall",
+   "title": "Colorado Symphony Orchestra presents Elgar Cello Concerto & Dvor??k Symphony No. 7 with Peter Oundjian",
+   "date": "2026-11-21",
+   "time": "19:30:00",
+   "url": "http://www.artscomplex.com",
+   "type": "concert"
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "TVBOO",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1505555/tvboo-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "Westend",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1544348/westend-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Karina Rykman",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1485555/karina-rykman-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Mihali presents: Mihalidaze w/ Alific",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "url": "https://cervantesmasterpiece.com/event/mihali-presents-mihalidaze-w-alific/cervantes-other-side/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "TF Marz & Friends w/ Ian Ewing, Kaya Ko & Kapok, Alex Moon, Bee.Ni$e",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "url": "https://cervantesmasterpiece.com/event/tf-marz-friends-w-ian-ewing-kaya-ko-kapok-alex-moon-bee-nie/cervantes-masterpiece-ballroom/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Gothic Theatre",
+   "title": "Foy Vance World Tour | 2026 & 2027",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1329843/foy-vance-world-tour-2026-2027-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Boulder Theater",
+   "title": "Last Waltz Revisited feat. Polytoxic, The Denver Horns & Guest Musicians",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "url": "https://www.z2ent.com/events/detail/last-waltz-revisited-2026-bt",
+   "type": "concert"
+  },
+  {
+   "venue": "Ellie Caulkins Opera House",
+   "title": "Penn And Teller",
+   "date": "2026-11-21",
+   "time": "20:00:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "TF Marz & Friends - Ages 16+",
+   "date": "2026-11-21",
+   "time": "20:30:00",
+   "url": "https://www.cervantesmasterpiece.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ophelia's Electric Soapbox",
+   "title": "Cualli",
+   "date": "2026-11-21",
+   "time": "21:00:00",
+   "url": "https://www.ticketmaster.com/cualli-denver-colorado-11-21-2026/event/1E00653CC7F2DB18",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Mo Amer",
+   "date": "2026-11-21",
+   "time": "21:15:00",
+   "url": "https://www.comedyworks.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Mauro Picotto",
+   "date": "2026-11-21",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/mauro-picotto-club-vinyl-tickets/14364284",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-21T00:23:31.059Z",
+    "from": 24.95
+   }
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "Tom & Collins",
+   "date": "2026-11-21",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/tom-collins-the-rooftop-at-vinyl-tickets/14364334",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-21T00:23:32.867Z",
+    "from": 24.95
+   }
+  },
+  {
+   "venue": "Club Vinyl",
+   "title": "The Rocketman",
+   "date": "2026-11-21",
+   "time": "22:00:00",
+   "url": "https://www.ticketweb.com/event/the-rocketman-the-basement-at-club-vinyl-tickets/14351424",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-21T00:23:34.687Z",
+    "from": 24.95
+   }
   }
  ]
 }
