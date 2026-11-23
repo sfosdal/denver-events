@@ -4507,6 +4507,141 @@
     "checked": "2026-11-21T00:23:34.687Z",
     "from": 24.95
    }
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "KTCL Presents: The Unlikely Candidates",
+   "date": "2026-11-22",
+   "time": "",
+   "url": "https://www.ticketmaster.com/ktcl-presents-the-unlikely-candidates-denver-colorado-11-22-2026/event/1E006547C879CA7E",
+   "type": "concert",
+   "tickets": {
+    "box": 214,
+    "resale": 0,
+    "checked": "2026-11-21T00:58:20.667Z",
+    "from": 20
+   }
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Cristina Mariani",
+   "date": "2026-11-22",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/cristina-mariani",
+   "type": "arts"
+  },
+  {
+   "venue": "Boettcher Concert Hall",
+   "title": "Colorado Symphony Orchestra presents Elgar Cello Concerto & Dvor??k Symphony No. 7 with Peter Oundjian",
+   "date": "2026-11-22",
+   "time": "13:00:00",
+   "url": "http://www.artscomplex.com",
+   "type": "concert"
+  },
+  {
+   "venue": "Empower Field at Mile High",
+   "title": "Denver Broncos vs. Las Vegas Raiders",
+   "date": "2026-11-22",
+   "time": "14:25:00",
+   "url": "https://www.ticketmaster.com/denver-broncos-vs-las-vegas-raiders-denver-colorado-11-22-2026/event/1E0064780414372F",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "CBS"
+    ]
+   },
+   "tickets": {
+    "box": 0,
+    "resale": 0,
+    "checked": "2026-11-17T01:14:58.892Z",
+    "from": 273.7
+   },
+   "soldOut": true
+  },
+  {
+   "venue": "The Buell Theatre",
+   "title": "Bluey's Big Play - The Stage Show (Recommended for Ages 2 and Over. A ticket is required for each patron in attendance)",
+   "date": "2026-11-22",
+   "time": "15:00:00",
+   "url": "https://www.denvercenter.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "Gila Teen + Air Moons + Birdhouse View",
+   "date": "2026-11-22",
+   "time": "18:00",
+   "url": "https://hi-dive.com/listing/gila-teen-air-moons-birdhouse-view/",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Jervis Campbell",
+   "date": "2026-11-22",
+   "time": "19:00",
+   "url": "https://www.axs.com/events/1436216/jervis-campbell-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Michael Smoak – The Purpose Progression: Understanding Your “Why”",
+   "date": "2026-11-22",
+   "time": "19:00",
+   "url": "https://cervantesmasterpiece.com/event/michael-smoak-the-purpose-progression-understanding-your-why/cervantes-other-side/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Paramount Theatre",
+   "title": "Outlander in Concert",
+   "date": "2026-11-22",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/outlander-in-concert-denver-colorado-11-22-2026/event/1E006473002F38EB",
+   "type": "movie",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T01:15:18.912Z",
+    "from": 75.35
+   }
+  },
+  {
+   "venue": "Marquis Theater",
+   "title": "Strawberry Girls & Andrés",
+   "date": "2026-11-22",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/strawberry-girls-andres-denver-colorado-11-22-2026/event/1E00653EEBBE1EA1",
+   "type": "concert",
+   "tickets": {
+    "box": 369,
+    "resale": 0,
+    "checked": "2026-11-21T00:59:03.581Z",
+    "from": 18
+   }
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "JOURNEY - Final Frontier Tour (An Evening With)",
+   "date": "2026-11-22",
+   "time": "19:30",
+   "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-denver-colorado-11-22-2026/event/1E0064A4E2714602?camefrom=CFC_KSE_RneQapXQUUWeAN6fMjvaWg&utm_source=RneQapXQUUWeAN6fMjvaWg&utm_medium=RneQapXQUUWeAN6fMjvaWg&utm_campaign=RneQapXQUUWeAN6fMjvaWg",
+   "type": "sports",
+   "tickets": {
+    "box": 0,
+    "resale": 0,
+    "checked": "2026-11-21T00:59:23.819Z",
+    "from": 142.6
+   },
+   "soldOut": true
+  },
+  {
+   "venue": "Dick's Sporting Goods Park",
+   "title": "Rd 1 Hm Gm 2: Colorado Rapids vs. TBD",
+   "date": "2026-11-22",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/rd-1-hm-gm-2-colorado-commerce-city-colorado-11-22-2026/event/1E006548CD1AB89B",
+   "type": "sports",
+   "status": "cancelled",
+   "statusSince": "2026-11-08T19:15:37.588Z"
   }
  ]
 }
