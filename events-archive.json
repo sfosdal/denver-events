@@ -4642,6 +4642,14 @@
    "type": "sports",
    "status": "cancelled",
    "statusSince": "2026-11-08T19:15:37.588Z"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Thick Skin",
+   "date": "2026-11-23",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/thick-skin",
+   "type": "arts"
   }
  ]
 }
