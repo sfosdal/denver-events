@@ -132,7 +132,7 @@
       cssVar: '--v-coors',
       color: '#e9b685',
       url: 'https://www.mlb.com/rockies/ballpark',
-      icon: 'marks/venues/mlb.com.png',
+      icon: 'marks/venues/rockies.png',
       tm: { id: 'KovZpZA6t7kA', match: 'coors field', fallbackUrl: 'https://www.mlb.com/rockies/ballpark', exclude: /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b(\d+|two|three)[- ]day (pass|tickets?)|grounds pass/i },
       alias: /coors field/i,
     },
