@@ -4650,6 +4650,65 @@
    "time": "",
    "url": "https://www.comedyworks.com/comedians/thick-skin",
    "type": "arts"
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "New Talent Night",
+   "date": "2026-11-24",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/new-talent-night",
+   "type": "arts"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Wooking For Love – Pilot Premiere Viewing Party",
+   "date": "2026-11-24",
+   "time": "18:00",
+   "url": "https://cervantesmasterpiece.com/event/wooking-for-love-pilot-premiere-viewing-party/cervantes-masterpiece-ballroom/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Meow Wolf Denver",
+   "title": "Prayers",
+   "date": "2026-11-24",
+   "time": "19:30:00",
+   "url": "https://tickets.meowwolf.com/events/denver/prayers/",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "**Sold Out** 2Dead Boyz & The Underachievers w/ Dizzy Wright, Johnny S",
+   "date": "2026-11-24",
+   "time": "19:45",
+   "url": "https://cervantesmasterpiece.com/event/sold-out-2dead-boyz-the-underachievers-w-dizzy-wright-johnny-s/cervantes-other-side/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "CANCELED – Jalen Ngonda w/ Brooke Combe",
+   "date": "2026-11-24",
+   "time": "20:00",
+   "url": "https://cervantesmasterpiece.com/event/canceled-jalen-ngonda-w-brooke-combe/cervantes-masterpiece-ballroom/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Denver Nuggets v Dallas Mavericks",
+   "date": "2026-11-24",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/denver-nuggets-v-dallas-mavericks-denver-colorado-11-24-2026/event/1E00650BB74BB804",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "NBC"
+    ]
+   },
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-23T00:31:27.916Z",
+    "from": 48.55
+   }
   }
  ]
 }
