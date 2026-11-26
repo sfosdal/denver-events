@@ -4709,6 +4709,112 @@
     "checked": "2026-11-23T00:31:27.916Z",
     "from": 48.55
    }
+  },
+  {
+   "venue": "Summit Music Hall",
+   "title": "Yung Gravy: The Joyrider Tour",
+   "date": "2026-11-25",
+   "time": "",
+   "url": "https://www.ticketmaster.com/yung-gravy-the-joyrider-tour-denver-colorado-11-25-2026/event/1E006514E06C5815",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-23T00:36:25.532Z",
+    "from": 48.25
+   }
+  },
+  {
+   "venue": "Comedy Works",
+   "title": "Sam Tallent",
+   "date": "2026-11-25",
+   "time": "",
+   "url": "https://www.comedyworks.com/comedians/sam-tallent",
+   "type": "arts"
+  },
+  {
+   "venue": "Hi-Dive",
+   "title": "The Second To Last Minute “Last Waltz” (Low Tickets)",
+   "date": "2026-11-25",
+   "time": "19:00",
+   "url": "https://hi-dive.com/listing/the-second-to-last-minute-last-waltz/",
+   "type": "concert"
+  },
+  {
+   "venue": "The Fillmore Auditorium",
+   "title": "22nd Annual Last Waltz Revisited - feat. Polytoxic",
+   "date": "2026-11-25",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/22nd-annual-last-waltz-revisited-feat-denver-colorado-11-25-2026/event/1E006524BDB02195",
+   "type": "concert"
+  },
+  {
+   "venue": "Ball Arena",
+   "title": "Colorado Avalanche v Montreal Canadiens",
+   "date": "2026-11-25",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/colorado-avalanche-v-montreal-canadiens-denver-colorado-11-25-2026/event/1E0064EEB2D29F14",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "ALT",
+     "KTVD"
+    ]
+   },
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-23T00:37:05.707Z",
+    "from": 102.2
+   }
+  },
+  {
+   "venue": "Mission Ballroom",
+   "title": "Josh Baker",
+   "date": "2026-11-25",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1566099/josh-baker-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Ogden Theatre",
+   "title": "MADVKTM",
+   "date": "2026-11-25",
+   "time": "20:00",
+   "url": "https://www.axs.com/events/1471695/madvktm-tickets",
+   "type": "concert"
+  },
+  {
+   "venue": "Oriental Theater",
+   "title": "Lucha Libre & Laughs: All Tomorrows Parties",
+   "date": "2026-11-25",
+   "time": "20:00",
+   "url": "https://holdmyticket.com/tickets/468058",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "Shift Wednesday Ft. Mindset w/ Pop Tha Trunk, Bostn, Kleptoe, chum.",
+   "date": "2026-11-25",
+   "time": "20:15",
+   "url": "https://cervantesmasterpiece.com/event/shift-wednesday-ft-mindset-w-pop-tha-trunk-bostn-kleptoe-chum/cervantes-other-side/denver-colorado/",
+   "type": "concert"
+  },
+  {
+   "venue": "Cervantes' Masterpiece Ballroom",
+   "title": "SHIFT Wednesday Ft. Ghengar w/ special guest All The Reason - Ages 16+",
+   "date": "2026-11-25",
+   "time": "20:30:00",
+   "url": "https://www.cervantesmasterpiece.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Bluebird Theater",
+   "title": "Costa B2B Lucky",
+   "date": "2026-11-25",
+   "time": "21:00",
+   "url": "https://www.axs.com/events/1664465/costa-b2b-lucky-tickets",
+   "type": "concert"
   }
  ]
 }
